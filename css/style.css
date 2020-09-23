@@ -1,0 +1,48 @@
+/*
+      ==============================================
+                  ****** GLOBAL ******
+      ==============================================
+ */
+i.fa-bars::before {
+  font-size: 68px;
+  color: #EC5242;
+}
+
+/*
+      ==============================================
+                  ****** RESET ******
+      ==============================================
+ */
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cocogoose Thin", sans-serif;
+  width: 100%;
+}
+body ul {
+  list-style: none;
+}
+body ul a {
+  text-decoration: none;
+  color: black;
+}
+body ul a:hover {
+  text-decoration: underline;
+  color: inherit;
+  text-decoration-color: #f72210;
+}
+
+.showcase {
+  background-color: #D3D3D3;
+  background-size: cover;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
