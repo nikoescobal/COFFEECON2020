@@ -6,8 +6,8 @@
   "scripts": {
     "test": "npm run webhint && npm run stylelint && echo \"✅✅✅ All tests passed ✅✅✅\"",
     "webhint": "hint .",
-    "stylelint": "stylelint **/*.css"
-    "sass":"node-sass styles/scss/main.scss styles/css/app.css -w"
+    "stylelint": "stylelint **/*.css",
+    "sass": "node-sass styles/scss/main.scss styles/css/app.css -w"
   },
   "repository": {
     "type": "git",
