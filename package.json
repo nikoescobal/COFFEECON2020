@@ -25,5 +25,8 @@
     "stylelint-config-standard": "^20.0.0",
     "stylelint-csstree-validator": "^1.8.0",
     "stylelint-scss": "^3.17.2"
+  },
+  "dependencies": {
+    "node-sass": "^4.14.1"
   }
 }
