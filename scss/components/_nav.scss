@@ -1,3 +1,14 @@
-nav {
-    // height: 50px;
+.top-nav {
+    padding: 10px 0;
+}
+
+.bot-nav {
+    height: 60px;
+}
+
+h1 {
+    // color: lighten($orange, 5%);
+    background: -webkit-linear-gradient(right, $orange, $gray);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
 }

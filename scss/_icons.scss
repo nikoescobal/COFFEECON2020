@@ -5,3 +5,17 @@ i.fa-bars::before {
   display: flex;
   align-items: center;
 }
+
+i.fa-facebook-f::before {
+  font-size: 18px;
+  color: $gray;
+  display: flex;
+  align-items: center;
+}
+
+i.fa-twitter::before {
+  font-size: 18px;
+  color: $gray;
+  display: flex;
+  align-items: center;
+}

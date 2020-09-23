@@ -10,6 +10,18 @@ i.fa-bars::before {
   display: flex;
   align-items: center; }
 
+i.fa-facebook-f::before {
+  font-size: 18px;
+  color: #D3D3D3;
+  display: flex;
+  align-items: center; }
+
+i.fa-twitter::before {
+  font-size: 18px;
+  color: #D3D3D3;
+  display: flex;
+  align-items: center; }
+
 /*
       ==============================================
                   ****** RESET ******
@@ -45,11 +57,17 @@ body {
 .black-text {
   color: #272A31; }
 
+.bg-black {
+  background-color: #272A31; }
+
+.bg-gray {
+  background-color: #D3D3D3; }
+
 .showcase {
-  background-image: url(https://i.pinimg.com/originals/a4/76/7c/a4767cfb43dab7db71282331e7df090c.gif), linear-gradient(to top, #272A31, #D3D3D3);
+  background-image: url(https://i.pinimg.com/originals/a4/76/7c/a4767cfb43dab7db71282331e7df090c.gif), linear-gradient(to top left, #272A31, #D3D3D3);
   background-color: transparent;
   background-blend-mode: overlay;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -57,3 +75,14 @@ body {
   position: relative;
   font: "Cocogoose Thin", sans-serif;
   cursor: pointer; }
+
+.top-nav {
+  padding: 10px 0; }
+
+.bot-nav {
+  height: 60px; }
+
+h1 {
+  background: -webkit-linear-gradient(right, #EC5242, #D3D3D3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }

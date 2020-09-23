@@ -1,8 +1,8 @@
 .showcase {
-    background-image: url(https://i.pinimg.com/originals/a4/76/7c/a4767cfb43dab7db71282331e7df090c.gif), linear-gradient(to top, $black, $gray);
+    background-image: url(https://i.pinimg.com/originals/a4/76/7c/a4767cfb43dab7db71282331e7df090c.gif), linear-gradient(to top left, $black, $gray);
     background-color: transparent;
     background-blend-mode: overlay;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
