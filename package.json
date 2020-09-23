@@ -1,0 +1,29 @@
+{
+  "name": "linters-config",
+  "version": "1.0.0",
+  "description": "default linter set-up configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run webhint && npm run stylelint && echo \"✅✅✅ All tests passed ✅✅✅\"",
+    "webhint": "hint .",
+    "stylelint": "stylelint **/*.css"
+    "sass":"node-sass styles/scss/main.scss styles/css/app.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikoescobal/linters-config.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikoescobal/linters-config/issues"
+  },
+  "homepage": "https://github.com/nikoescobal/linters-config#readme",
+  "devDependencies": {
+    "hint": "^6.0.7",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-csstree-validator": "^1.8.0",
+    "stylelint-scss": "^3.17.2"
+  }
+}
