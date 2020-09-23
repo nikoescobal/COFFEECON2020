@@ -1,0 +1,35 @@
+/*
+      ==============================================
+                  ****** RESET ******
+      ==============================================
+ */
+
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Cocogoose Thin", sans-serif;
+    width: 100%;
+
+    ul {
+        list-style: none;
+
+        a {
+            text-decoration: none;
+            color: black;
+
+
+            &:hover {
+                text-decoration: underline;
+                color: inherit;
+                text-decoration-color: #f72210;
+            }
+        }
+    }
+}

@@ -1,63 +1,6 @@
-*==============================================****** RESET ******==============================================*/ *,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
+@import "./config";
+@import "./icons";
+@import "./reset";
+@import "./components/showcase"
 
-body {
-    font-family: "Cocogoose Thin", sans-serif;
-    width: 100%;
-}
-
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: inherit;
-    text-decoration-color: #f72210;
-}
-
-/*
-      ==============================================
-                  ****** GLOBAL ******
-      ==============================================
- */
-
-.bg-red {
-    background-color: #f72210;
-}
-
-.text-red {
-    color: #f72210;
-}
-
-/*
-      ==============================================
-                  ****** HEADER ******
-      ==============================================
- */
-
-
-
-i.fa-bars::before {
-    font-size: 20px;
-    color: #ffa39b;
-}
-
-/*
-      ==============================================
-                  ****** MAIN ******
-      ==============================================
- */
- 
+// @media (min-width: 768px) {
