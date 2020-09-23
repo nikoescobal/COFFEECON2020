@@ -14,7 +14,7 @@
 }
 
 body {
-    font-family: "Cocogoose Thin", sans-serif;
+    font-family: "Cocogoose Semilight", sans-serif;
     width: 100%;
 
     ul {
@@ -32,4 +32,16 @@ body {
             }
         }
     }
+}
+
+.orange-text {
+    color: $orange;
+}
+
+.gray-text {
+    color: $gray;
+}
+
+.black-text {
+    color: $black;
 }

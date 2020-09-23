@@ -4,9 +4,11 @@
       ==============================================
  */
 i.fa-bars::before {
-  font-size: 68px;
-  color: #EC5242;
-}
+  font-size: 28px;
+  color: #272A31;
+  padding: 15px 25px;
+  display: flex;
+  align-items: center; }
 
 /*
       ==============================================
@@ -19,30 +21,39 @@ i.fa-bars::before {
   padding: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body {
-  font-family: "Cocogoose Thin", sans-serif;
-  width: 100%;
-}
-body ul {
-  list-style: none;
-}
-body ul a {
-  text-decoration: none;
-  color: black;
-}
-body ul a:hover {
-  text-decoration: underline;
-  color: inherit;
-  text-decoration-color: #f72210;
-}
+  font-family: "Cocogoose Semilight", sans-serif;
+  width: 100%; }
+  body ul {
+    list-style: none; }
+    body ul a {
+      text-decoration: none;
+      color: black; }
+      body ul a:hover {
+        text-decoration: underline;
+        color: inherit;
+        text-decoration-color: #f72210; }
+
+.orange-text {
+  color: #EC5242; }
+
+.gray-text {
+  color: #D3D3D3; }
+
+.black-text {
+  color: #272A31; }
 
 .showcase {
-  background-color: #D3D3D3;
+  background-image: url(https://i.pinimg.com/originals/a4/76/7c/a4767cfb43dab7db71282331e7df090c.gif), linear-gradient(to top, #272A31, #D3D3D3);
+  background-color: transparent;
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   width: 100%;
-}
-
-/*# sourceMappingURL=style.css.map */
+  position: relative;
+  font: "Cocogoose Thin", sans-serif;
+  cursor: pointer; }
