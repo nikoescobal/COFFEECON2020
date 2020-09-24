@@ -10,10 +10,10 @@
     position: relative;
     font: $font-stack-1;
     cursor: pointer;
-    height: 400px;
+    height: 500px;
 
     &-bottom {
-        background: -webkit-linear-gradient(top right, lighten($black, 5%), $gray);
+        background: -webkit-linear-gradient(top left, lighten($orange, 75%), $black);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;   
         }
