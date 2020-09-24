@@ -75,6 +75,10 @@ body {
   position: relative;
   font: "Cocogoose Thin", sans-serif;
   cursor: pointer; }
+  .showcase-bottom {
+    background: -webkit-linear-gradient(top left, #f7f8f9, #D3D3D3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
 
 .top-nav {
   padding: 10px 0; }
@@ -83,6 +87,6 @@ body {
   height: 60px; }
 
 h1 {
-  background: -webkit-linear-gradient(right, #EC5242, #D3D3D3);
+  background: -webkit-linear-gradient(top right, #adadad, #EC5242);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }

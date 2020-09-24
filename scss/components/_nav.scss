@@ -7,8 +7,7 @@
 }
 
 h1 {
-    // color: lighten($orange, 5%);
-    background: -webkit-linear-gradient(right, $orange, $gray);
+    background: -webkit-linear-gradient(top right, darken($gray, 15%), $orange);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;  
 }
