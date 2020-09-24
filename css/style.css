@@ -74,19 +74,24 @@ body {
   width: 100%;
   position: relative;
   font: "Cocogoose Thin", sans-serif;
-  cursor: pointer; }
+  cursor: pointer;
+  height: 400px; }
   .showcase-bottom {
-    background: -webkit-linear-gradient(top left, #f7f8f9, #D3D3D3);
+    background: -webkit-linear-gradient(top right, #32363f, #D3D3D3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
 
 .top-nav {
-  padding: 10px 0; }
+  height: 35px; }
 
 .bot-nav {
-  height: 60px; }
+  height: 50px; }
 
 h1 {
-  background: -webkit-linear-gradient(top right, #adadad, #EC5242);
+  background: -webkit-linear-gradient(top left, #ea3d2b, #D3D3D3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 28px; } }

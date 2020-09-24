@@ -3,4 +3,24 @@
 @import "./reset";
 @import "./components/showcase";
 @import "./components/nav";
+@import "mobile";
+
+
+// @font-face {
+//     font-family: Cocogoose Pro;
+//     src: url(/assets/cocogoose/Cocogoose\ Pro-trial.ttf);
+// }
+
+// @font-face {
+//     font-family: "Cocogoose SL", sans-serif;
+//     src: url(/assets/cocogoose/Cocogoose\ Pro\ Semilight-trial.ttf);
+// }
+
+
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
