@@ -1,0 +1,31 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.main-program {
+    background-image: url(https://i.pinimg.com/originals/87/c1/d2/87c1d2e0bd88142fd47549b2e86f247b.jpg), linear-gradient(to top left, $black, $gray);
+    background-color: #282a33;
+    background-blend-mode: overlay;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    font: $font-stack-1;
+    cursor: pointer;
+    height: 500px;
+
+    .content {
+       background: transparentize($black, 0.5);
+       backdrop-filter: blur(4px);
+       color: white;  
+       @include flex-center;
+        }
+
+        .summary {
+            height: 50px;
+        }
+}
+

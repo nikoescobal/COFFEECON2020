@@ -3,13 +3,14 @@
 @import "./reset";
 @import "./components/showcase";
 @import "./components/nav";
-@import "mobile";
+@import "./mobile";
+@import "./components/main";
 
 
 // @font-face {
-//     font-family: Cocogoose Pro;
-//     src: url(/assets/cocogoose/Cocogoose\ Pro-trial.ttf);
-// }
+//      font-family: "Cocogoose Pro", sans-serif;
+//      src: url(/assets/cocogoose/Cocogoose\ Pro-trial.ttf);
+//  }
 
 // @font-face {
 //     font-family: "Cocogoose SL", sans-serif;
@@ -18,9 +19,5 @@
 
 
 
-@mixin flex-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
