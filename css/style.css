@@ -84,12 +84,6 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
 
-.top-nav {
-  height: 35px; }
-
-.bot-nav {
-  height: 50px; }
-
 h1 {
   background: -webkit-linear-gradient(top left, #e42a17, #D3D3D3);
   -webkit-background-clip: text;
