@@ -84,6 +84,9 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
 
+.top-nav {
+  height: 50px; }
+
 h1 {
   background: -webkit-linear-gradient(top left, #e42a17, #D3D3D3);
   -webkit-background-clip: text;
@@ -100,7 +103,15 @@ h1 {
   .header-logo {
     background: linear-gradient(to left, #adadad, #EC5242); }
   h1 {
-    font-size: 32px; } }
+    font-size: 38px; } }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 35px; } }
+
+@media (max-width: 321px) {
+  h1 {
+    font-size: 34px; } }
 
 @media (min-width: 768px) {
   .showcase-bottom-caption {

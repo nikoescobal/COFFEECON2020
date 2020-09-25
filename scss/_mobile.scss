@@ -1,8 +1,8 @@
 @media (max-width: 992px) {
-    h1 {
-        font-size: 40px;
-    }
-}
+     h1 {
+         font-size: 40px;
+     }
+ }
 
 @media (max-width: 767px) {
 
@@ -10,8 +10,20 @@
        background: linear-gradient(to left, darken($gray, 15%), $orange);    
     }
 
+     h1 {
+         font-size: 38px;
+     }
+}
+
+@media (max-width: 576px) {
     h1 {
-        font-size: 32px;
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 321px) {
+    h1 {
+        font-size: 34px;
     }
 }
 
