@@ -80,12 +80,10 @@ a {
   cursor: pointer;
   height: 500px; }
   .showcase-bottom {
-    background: -webkit-linear-gradient(top left, white, #272A31);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
+    color: white; }
     .showcase-bottom-caption {
       border-radius: 5px;
-      color: pink; }
+      background: rgba(39, 42, 49, 0.2); }
 
 .top-nav {
   height: 50px; }
