@@ -119,6 +119,8 @@ h1 {
   .main-program .summary {
     height: 50px; }
   .main-program .main-button {
-    width: 390px;
+    width: 18em;
+    color: white;
     border: transparent;
-    background-color: #eb4a39; }
+    background-color: #eb4534;
+    border-radius: 50px; }

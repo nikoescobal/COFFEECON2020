@@ -29,9 +29,11 @@
         }
 
         .main-button {
-            width: 390px;
+            width: 18em;
+            color: lighten($gray, 85%);
             border: transparent;
-            background-color: darken($orange, 2%);
+            background-color: darken($orange, 3%);
+            border-radius: 50px;
         }
 
 }
