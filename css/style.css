@@ -40,12 +40,13 @@ body {
   width: 100%; }
   body ul {
     list-style: none; }
-    body ul a {
-      text-decoration: none;
-      color: #D3D3D3; }
-      body ul a:hover {
-        text-decoration: none;
-        color: #EC5242; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+  a:hover {
+    color: #f17c70;
+    text-decoration: none; }
 
 .orange-text {
   color: #EC5242; }
@@ -141,4 +142,4 @@ h1 {
     border: transparent;
     background-color: #eb4534;
     border-radius: 50px;
-    box-shadow: 1px -1px 4px 1px #D3D3D3 255, 255, 255, 1; }
+    box-shadow: 10px -10px 4px 1px #272A31 255, 255, 255, 1; }
