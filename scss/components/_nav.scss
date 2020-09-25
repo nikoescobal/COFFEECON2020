@@ -13,5 +13,8 @@
 h1 {
     background: -webkit-linear-gradient(top left, darken($orange, 10%), $gray);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;  
+    -webkit-text-fill-color: transparent; 
+    font-family: $font-stack-1;
+    font-size: 45px; 
+    font-weight: 700;
 }

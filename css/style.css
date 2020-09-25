@@ -36,7 +36,7 @@ i.fa-twitter::before {
   box-sizing: border-box; }
 
 body {
-  font-family: "Cocogoose Semilight", sans-serif;
+  font-family: "Lato", sans-serif;
   width: 100%; }
   body ul {
     list-style: none; }
@@ -76,7 +76,7 @@ body {
   background-size: cover;
   width: 100%;
   position: relative;
-  font: "Cocogoose Thin", sans-serif;
+  font: "Work Sans", sans-serif;
   cursor: pointer;
   height: 500px; }
   .showcase-bottom {
@@ -93,13 +93,20 @@ body {
 h1 {
   background: -webkit-linear-gradient(top left, #e42a17, #D3D3D3);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
+  -webkit-text-fill-color: transparent;
+  font-family: "Work Sans", sans-serif;
+  font-size: 45px;
+  font-weight: 700; }
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 40px; } }
 
 @media (max-width: 767px) {
   .header-logo {
     background: linear-gradient(to left, #adadad, #EC5242); }
   h1 {
-    font-size: 28px; } }
+    font-size: 32px; } }
 
 @media (min-width: 768px) {
   .showcase-bottom-caption {
@@ -115,7 +122,7 @@ h1 {
   background-size: cover;
   width: 100%;
   position: relative;
-  font: "Cocogoose Thin", sans-serif;
+  font: "Work Sans", sans-serif;
   cursor: pointer;
   height: auto; }
   .main-program .content {
