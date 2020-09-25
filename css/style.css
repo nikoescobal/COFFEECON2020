@@ -63,6 +63,9 @@ body {
 .bg-gray {
   background-color: #D3D3D3; }
 
+.bg-orange {
+  background-color: #EC5242; }
+
 .showcase {
   background-image: url(https://i.pinimg.com/originals/a4/76/7c/a4767cfb43dab7db71282331e7df090c.gif), linear-gradient(to top left, #272A31, #D3D3D3);
   background-color: transparent;
@@ -108,7 +111,7 @@ h1 {
   position: relative;
   font: "Cocogoose Thin", sans-serif;
   cursor: pointer;
-  height: 550px; }
+  height: 700px; }
   .main-program .content {
     background: rgba(39, 42, 49, 0.5);
     backdrop-filter: blur(4px);
@@ -116,4 +119,6 @@ h1 {
   .main-program .summary {
     height: 50px; }
   .main-program .main-button {
-    width: 390px; }
+    width: 390px;
+    border: transparent;
+    background-color: #eb4a39; }

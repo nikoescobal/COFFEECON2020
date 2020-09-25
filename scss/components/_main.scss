@@ -15,7 +15,7 @@
     position: relative;
     font: $font-stack-1;
     cursor: pointer;
-    height: 550px;
+    height: 700px;
 
     .content {
        background: transparentize($black, 0.5);
@@ -30,6 +30,8 @@
 
         .main-button {
             width: 390px;
+            border: transparent;
+            background-color: darken($orange, 2%);
         }
 
 }
