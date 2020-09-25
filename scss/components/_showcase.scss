@@ -1,8 +1,8 @@
 .showcase {
-    background-image: url(https://i.pinimg.com/originals/a4/76/7c/a4767cfb43dab7db71282331e7df090c.gif), linear-gradient(to top left, $black, $gray);
+    background-image: url(https://i.pinimg.com/originals/a4/76/7c/a4767cfb43dab7db71282331e7df090c.gif), linear-gradient(to top left, darken($black, 75%), $gray);
     background-color: transparent;
     background-blend-mode: overlay;
-    background-position: top;
+    background-position: 42% 58%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -16,6 +16,9 @@
         background: -webkit-linear-gradient(top left, lighten($orange, 75%), $black);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;   
-        }
+    }
+
+
+       
 }
 
