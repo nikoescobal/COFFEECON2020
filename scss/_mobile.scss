@@ -1,11 +1,18 @@
 @media (max-width: 767px) {
+
+    .header-logo {
+       background: linear-gradient(to left, darken($gray, 15%), $orange);    
+    }
+
     h1 {
         font-size: 28px;
     }
 }
 
+
 @media (min-width: 768px) {
     .showcase-bottom-caption {
         margin-top: -10px;
     }
+
 }

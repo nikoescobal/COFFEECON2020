@@ -15,15 +15,11 @@
     position: relative;
     font: $font-stack-1;
     cursor: pointer;
-    height: 600px;
+    height: auto;
 
     .content {
        background: transparentize($black, 0.5);
        backdrop-filter: blur(4px);
-        }
-
-        .summary {
-            height: 50px;
         }
 
         .main-button {

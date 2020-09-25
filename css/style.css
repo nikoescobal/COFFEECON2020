@@ -91,17 +91,19 @@ body {
   height: 50px; }
 
 h1 {
-  background: -webkit-linear-gradient(top left, #ea3d2b, #D3D3D3);
+  background: -webkit-linear-gradient(top left, #cd2615, #D3D3D3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
 @media (max-width: 767px) {
+  .header-logo {
+    background: linear-gradient(to left, #adadad, #EC5242); }
   h1 {
     font-size: 28px; } }
 
 @media (min-width: 768px) {
   .showcase-bottom-caption {
-    margin-top: -12px; } }
+    margin-top: -10px; } }
 
 .main-program {
   background-image: url(https://i.pinimg.com/originals/87/c1/d2/87c1d2e0bd88142fd47549b2e86f247b.jpg), linear-gradient(to top left, #272A31, #D3D3D3);
@@ -115,12 +117,10 @@ h1 {
   position: relative;
   font: "Cocogoose Thin", sans-serif;
   cursor: pointer;
-  height: 600px; }
+  height: auto; }
   .main-program .content {
     background: rgba(39, 42, 49, 0.5);
     backdrop-filter: blur(4px); }
-  .main-program .summary {
-    height: 50px; }
   .main-program .main-button {
     width: 18em;
     color: white;
