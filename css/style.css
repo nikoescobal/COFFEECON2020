@@ -111,7 +111,7 @@ h1 {
   position: relative;
   font: "Cocogoose Thin", sans-serif;
   cursor: pointer;
-  height: 700px; }
+  height: 600px; }
   .main-program .content {
     background: rgba(39, 42, 49, 0.5);
     backdrop-filter: blur(4px); }
