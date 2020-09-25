@@ -15,12 +15,11 @@
     position: relative;
     font: $font-stack-1;
     cursor: pointer;
-    height: 700px;
+    height: 600px;
 
     .content {
        background: transparentize($black, 0.5);
        backdrop-filter: blur(4px);
-       color: white;  
         }
 
         .summary {

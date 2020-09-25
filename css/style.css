@@ -114,8 +114,7 @@ h1 {
   height: 700px; }
   .main-program .content {
     background: rgba(39, 42, 49, 0.5);
-    backdrop-filter: blur(4px);
-    color: white; }
+    backdrop-filter: blur(4px); }
   .main-program .summary {
     height: 50px; }
   .main-program .main-button {
