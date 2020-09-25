@@ -108,12 +108,12 @@ h1 {
   position: relative;
   font: "Cocogoose Thin", sans-serif;
   cursor: pointer;
-  height: 500px; }
+  height: 550px; }
   .main-program .content {
     background: rgba(39, 42, 49, 0.5);
     backdrop-filter: blur(4px);
-    color: white;
-    display: flex;
-    justify-content: center; }
+    color: white; }
   .main-program .summary {
     height: 50px; }
+  .main-program .main-button {
+    width: 390px; }

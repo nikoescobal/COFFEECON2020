@@ -15,17 +15,22 @@
     position: relative;
     font: $font-stack-1;
     cursor: pointer;
-    height: 500px;
+    height: 550px;
 
     .content {
        background: transparentize($black, 0.5);
        backdrop-filter: blur(4px);
        color: white;  
-       @include flex-center;
+    //    @include flex-center;
         }
 
         .summary {
             height: 50px;
         }
+
+        .main-button {
+            width: 390px;
+        }
+
 }
 
