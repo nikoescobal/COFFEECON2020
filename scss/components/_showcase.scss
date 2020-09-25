@@ -16,6 +16,11 @@
         background: -webkit-linear-gradient(top left, lighten($orange, 75%), $black);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;   
+
+        &-caption {
+            border-radius: 5px;
+            color: pink;
+        }
     }
 
 

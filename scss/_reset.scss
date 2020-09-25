@@ -22,13 +22,12 @@ body {
 
         a {
             text-decoration: none;
-            color: black;
+            color: $gray;
 
 
             &:hover {
-                text-decoration: underline;
-                color: inherit;
-                text-decoration-color: #f72210;
+                text-decoration: none;
+                color: $orange;
             }
         }
     }

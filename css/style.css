@@ -42,11 +42,10 @@ body {
     list-style: none; }
     body ul a {
       text-decoration: none;
-      color: black; }
+      color: #D3D3D3; }
       body ul a:hover {
-        text-decoration: underline;
-        color: inherit;
-        text-decoration-color: #f72210; }
+        text-decoration: none;
+        color: #EC5242; }
 
 .orange-text {
   color: #EC5242; }
@@ -83,6 +82,9 @@ body {
     background: -webkit-linear-gradient(top left, white, #272A31);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
+    .showcase-bottom-caption {
+      border-radius: 5px;
+      color: pink; }
 
 .top-nav {
   height: 50px; }
@@ -138,4 +140,5 @@ h1 {
     color: white;
     border: transparent;
     background-color: #eb4534;
-    border-radius: 50px; }
+    border-radius: 50px;
+    box-shadow: 1px -1px 4px 1px #D3D3D3 255, 255, 255, 1; }
