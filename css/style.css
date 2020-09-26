@@ -37,7 +37,8 @@ i.fa-twitter::before {
 
 body {
   font-family: "Lato", sans-serif;
-  width: 100%; }
+  width: 100%;
+  color: #272A31; }
   body ul {
     list-style: none; }
 
