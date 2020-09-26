@@ -13,18 +13,11 @@
     height: 500px;
 
     &-bottom {
-        //background: -webkit-linear-gradient(top left, lighten($orange, 75%), $black);
-        // // -webkit-background-clip: text;
-        // // -webkit-text-fill-color: transparent;   
         color: lighten($gray, 20%);
 
         &-caption {
             border-radius: 5px;
             background: transparentize($black, 0.6);
-
-            //background-color: darken($gray, 25%); 
-
-            // color: pink;
         }
     }
 
