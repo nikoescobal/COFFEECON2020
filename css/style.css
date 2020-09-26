@@ -116,7 +116,7 @@ h1 {
 
 @media (max-width: 321px) {
   h1 {
-    font-size: 34px; } }
+    font-size: 31px; } }
 
 @media (min-width: 768px) {
   .showcase-bottom-caption {
@@ -142,6 +142,8 @@ h1 {
     background-color: #eb4534;
     border-radius: 50px;
     box-shadow: 10px -10px 4px 1px #272A31 255, 255, 255, 1; }
+  .main-program .coffee-caption {
+    width: 100%; }
 
 .coffee-experts figure {
   width: 100%; }
