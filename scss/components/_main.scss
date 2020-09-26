@@ -33,16 +33,9 @@
 
 }
 
-.coffee-experts {
-
-        // .card-1 {
-        //     grid-template-columns: repeat(2, 1fr);
-        //     width: 100%;
-        //     display: grid;
-        //     max-width: 150px;
-        //     margin: 0 auto;
-        //     grid-gap: 1rem;
-        // }
+.coffee-experts figure {
+    width: 100%; 
+       }
 
     .avatar {
         object-fit: cover;
@@ -50,4 +43,3 @@
         max-width: 100%;
         height: 10rem;
     }
-}

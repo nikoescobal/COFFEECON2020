@@ -146,7 +146,10 @@ h1 {
     border-radius: 50px;
     box-shadow: 10px -10px 4px 1px #272A31 255, 255, 255, 1; }
 
-.coffee-experts .avatar {
+.coffee-experts figure {
+  width: 100%; }
+
+.avatar {
   object-fit: cover;
   width: 10rem;
   max-width: 100%;
