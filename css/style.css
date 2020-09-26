@@ -123,11 +123,8 @@ h1 {
     margin-top: -10px; } }
 
 .main-program {
-  background-image: url(https://i.pinimg.com/originals/87/c1/d2/87c1d2e0bd88142fd47549b2e86f247b.jpg), linear-gradient(to top left, #272A31, #D3D3D3);
-  background-color: #282a33;
-  background-blend-mode: overlay;
-  background-position: top;
-  background-repeat: no-repeat;
+  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://i.pinimg.com/originals/87/c1/d2/87c1d2e0bd88142fd47549b2e86f247b.jpg);
+  background-position: center center;
   background-attachment: fixed;
   background-size: cover;
   width: 100%;
