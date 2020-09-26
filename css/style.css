@@ -71,7 +71,7 @@ a {
   display: grid; }
 
 .showcase {
-  background-image: url(https://i.pinimg.com/originals/a4/76/7c/a4767cfb43dab7db71282331e7df090c.gif), linear-gradient(to top left, black, #D3D3D3);
+  background-image: url(/assets/coffee.gif), linear-gradient(to top left, black, #D3D3D3);
   background-color: transparent;
   background-blend-mode: overlay;
   background-position: 42% 58%;
@@ -90,7 +90,7 @@ a {
       background: rgba(39, 42, 49, 0.4); }
 
 .top-nav {
-  height: 50px; }
+  height: 30px; }
 
 h1 {
   background: -webkit-linear-gradient(top left, #e42a17, #D3D3D3);
