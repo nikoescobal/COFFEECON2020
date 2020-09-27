@@ -3,9 +3,10 @@
 }
 
 h1 {
-    background: -webkit-linear-gradient(top left, darken($orange, 10%), $gray);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    // background: -webkit-linear-gradient(top left, darken($orange, 4%), $black);
+    // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent; 
+    color: darken($orange, 2%) ;
     font-family: $font-stack-1;
     font-size: 45px; 
     font-weight: 700;

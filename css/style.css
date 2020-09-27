@@ -93,9 +93,7 @@ a {
   height: 30px; }
 
 h1 {
-  background: -webkit-linear-gradient(top left, #e42a17, #D3D3D3);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #eb4a39;
   font-family: "Work Sans", sans-serif;
   font-size: 45px;
   font-weight: 700; }
@@ -106,7 +104,7 @@ h1 {
 
 @media (max-width: 767px) {
   .header-logo {
-    background: linear-gradient(to left, #adadad, #EC5242); }
+    background: linear-gradient(to right, #adadad, #EC5242); }
   h1 {
     font-size: 38px; } }
 
@@ -134,7 +132,8 @@ h1 {
   height: auto; }
   .main-program .content {
     background: rgba(39, 42, 49, 0.5);
-    backdrop-filter: blur(4px); }
+    backdrop-filter: blur(4px);
+    border-radius: 15px; }
   .main-program .main-button {
     width: 18em;
     color: white;
@@ -145,7 +144,7 @@ h1 {
   .main-program .coffee-caption {
     width: 100%; }
 
-.coffee-experts figure {
+.coffee-connoiseurs figure {
   width: 100%; }
 
 .avatar {
