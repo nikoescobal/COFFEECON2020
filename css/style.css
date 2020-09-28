@@ -117,7 +117,9 @@ h1 {
   h1 {
     font-size: 35px; }
   footer {
-    font-size: 14px; } }
+    font-size: 14px; }
+  .past-coffeecon h2 {
+    font-size: 24px; } }
 
 @media (max-width: 321px) {
   h1 {
@@ -190,3 +192,37 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center; }
+
+.coffeecon-2019 {
+  background-image: linear-gradient(to top left, rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url(https://www.finedininglovers.com/sites/g/files/xknfdk626/files/styles/open_graph_image/public/Original_555_FDL-226-TP.jpg?itok=Sf-xMd1p);
+  backdrop-filter: blur(4px);
+  border-radius: 15px;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  font: "Work Sans", sans-serif;
+  cursor: pointer;
+  height: auto; }
+
+.coffeecon-2018 {
+  background-image: linear-gradient(to top left, rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url(https://sprudge.com/wp-content/uploads/2018/09/Hugh-Kelly-ONA-Australia-03-1024x683.jpg);
+  backdrop-filter: blur(4px);
+  border-radius: 15px;
+  background-position: 42% 58%;
+  background-attachment: scroll;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  font: "Work Sans", sans-serif;
+  cursor: pointer;
+  height: auto; }
+
+.main-button {
+  width: 18em;
+  color: white;
+  border: transparent;
+  background-color: #eb4534;
+  border-radius: 50px;
+  box-shadow: 10px -10px 4px 1px #272A31 255, 255, 255, 1; }
