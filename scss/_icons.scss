@@ -1,6 +1,6 @@
 i.fa-bars::before {
   font-size: 28px;
-  color: $black;
+  color: lighten($black, 5);
   padding: 15px 25px;
   display: flex;
   align-items: center;

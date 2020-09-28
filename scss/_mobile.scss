@@ -34,12 +34,23 @@
     h1 {
         font-size: 35px;
     }
+
+    footer {
+        font-size: 14px;
+    }
+
 }
 
 @media (max-width: 321px) {
     h1 {
-        font-size: 32px;
+        font-size: 31px;
     }
+
+    .coffee-connoiseurs h2 {
+        font-size: 26px;
+    }
+
+    
 }
 
 
