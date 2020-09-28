@@ -1,0 +1,32 @@
+.about {
+    background-image: url(https://nationalcoffeeblog.files.wordpress.com/2018/11/limitless-coffee.gif), linear-gradient(to top left, darken($black, 75%), $gray);
+    background-color: transparent;
+    background-blend-mode: overlay;
+    background-position: 42% 58%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    font: $font-stack-1;
+    cursor: pointer;
+    height: 500px;
+
+    &-bottom {
+        color: darken($gray, 54%);
+
+        &-caption {
+            border-radius: 5px;
+            background: transparentize(white, 0.3);
+
+            &-caption:hover {
+                background: red;
+            }
+
+        }
+    }
+
+
+       
+}
+

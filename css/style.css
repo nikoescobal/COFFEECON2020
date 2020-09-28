@@ -164,3 +164,24 @@ h1 {
 
 .partners {
   background-color: #36383e; }
+
+.about {
+  background-image: url(https://nationalcoffeeblog.files.wordpress.com/2018/11/limitless-coffee.gif), linear-gradient(to top left, black, #D3D3D3);
+  background-color: transparent;
+  background-blend-mode: overlay;
+  background-position: 42% 58%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  font: "Work Sans", sans-serif;
+  cursor: pointer;
+  height: 500px; }
+  .about-bottom {
+    color: #494949; }
+    .about-bottom-caption {
+      border-radius: 5px;
+      background: rgba(255, 255, 255, 0.7); }
+      .about-bottom-caption-caption:hover {
+        background: red; }
