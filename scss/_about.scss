@@ -1,3 +1,9 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+
 .about {
     background-image: url(https://nationalcoffeeblog.files.wordpress.com/2018/11/limitless-coffee.gif), linear-gradient(to top left, darken($black, 75%), $gray);
     background-color: transparent;
@@ -30,3 +36,7 @@
        
 }
 
+.best-coffee figcaption p {
+    @include flex-center;
+    align-items: center;
+}
