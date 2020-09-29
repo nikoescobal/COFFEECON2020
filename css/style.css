@@ -12,13 +12,13 @@ i.fa-bars::before {
 
 i.fa-facebook-f::before {
   font-size: 18px;
-  color: #D3D3D3;
+  color: #d3d3d3;
   display: flex;
   align-items: center; }
 
 i.fa-twitter::before {
   font-size: 18px;
-  color: #D3D3D3;
+  color: #d3d3d3;
   display: flex;
   align-items: center; }
 
@@ -38,7 +38,7 @@ i.fa-twitter::before {
 body {
   font-family: "Lato", sans-serif;
   width: 100%;
-  color: #272A31; }
+  color: #272a31; }
   body ul {
     list-style: none; }
 
@@ -50,31 +50,28 @@ a {
     text-decoration: none; }
 
 .orange-text {
-  color: #EC5242; }
+  color: #ec5242; }
 
 .gray-text {
-  color: #D3D3D3; }
+  color: #d3d3d3; }
 
 .black-text {
-  color: #272A31; }
+  color: #272a31; }
 
 .bg-black {
-  background-color: #272A31; }
+  background-color: #272a31; }
 
 .bg-gray {
-  background-color: #D3D3D3; }
+  background-color: #d3d3d3; }
 
 .bg-dark-gray {
   background-color: #3d3f46; }
 
 .bg-orange {
-  background-color: #EC5242; }
-
-.d-grid {
-  display: grid; }
+  background-color: #ec5242; }
 
 .showcase {
-  background-image: url(/assets/coffee.gif), linear-gradient(to top left, black, #D3D3D3);
+  background-image: url(/assets/coffee.gif), linear-gradient(to top left, black, #d3d3d3);
   background-color: transparent;
   background-blend-mode: overlay;
   background-position: 57% 43%;
@@ -109,7 +106,7 @@ h1 {
 
 @media (max-width: 767px) {
   .header-logo {
-    background: linear-gradient(to right, #adadad, #EC5242); }
+    background: linear-gradient(to right, #adadad, #ec5242); }
   h1 {
     font-size: 38px; } }
 
@@ -163,7 +160,7 @@ h1 {
     border: transparent;
     background-color: #eb4534;
     border-radius: 50px;
-    box-shadow: 10px -10px 4px 1px #272A31 255, 255, 255, 1; }
+    box-shadow: 10px -10px 4px 1px #272a31 255, 255, 255, 1; }
   .main-program .coffee-caption {
     width: 100%; }
 
@@ -195,15 +192,15 @@ h1 {
   background-color: #36383e; }
 
 .fancy-border {
-  border: 10px solid #272A31;
+  border: 10px solid #272a31;
   border-image: url("/assets/bg-gradient.png");
   border-image-slice: 230 100 110; }
 
 .table-border {
-  border: 3px solid #272A31; }
+  border: 3px solid #272a31; }
 
 .about {
-  background-image: url(https://nationalcoffeeblog.files.wordpress.com/2018/11/limitless-coffee.gif), linear-gradient(to top left, black, #D3D3D3);
+  background-image: url(https://nationalcoffeeblog.files.wordpress.com/2018/11/limitless-coffee.gif), linear-gradient(to top left, black, #d3d3d3);
   background-color: transparent;
   background-blend-mode: overlay;
   background-position: 42% 58%;
@@ -260,4 +257,4 @@ h1 {
   border: transparent;
   background-color: #eb4534;
   border-radius: 50px;
-  box-shadow: 10px -10px 4px 1px #272A31 255, 255, 255, 1; }
+  box-shadow: 10px -10px 4px 1px #272a31 255, 255, 255, 1; }

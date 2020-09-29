@@ -3,7 +3,6 @@
     justify-content: center;
 }
 
-
 .about {
     background-image: url(https://nationalcoffeeblog.files.wordpress.com/2018/11/limitless-coffee.gif), linear-gradient(to top left, darken($black, 75%), $gray);
     background-color: transparent;
@@ -28,12 +27,8 @@
             &-caption:hover {
                 background: red;
             }
-
         }
     }
-
-
-
 }
 
 .best-coffee figcaption p {
@@ -68,7 +63,6 @@
     cursor: pointer;
     height: auto;
 }
-
 
 .main-button {
     width: 18em;
