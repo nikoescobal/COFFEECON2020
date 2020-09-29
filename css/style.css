@@ -125,7 +125,13 @@ h1 {
   .ticket-button {
     font-size: 11px; }
   .tables {
-    font-size: 11.5px; } }
+    font-size: 11.5px; }
+  .best-coffee h2 {
+    font-size: 28px; }
+  .best-coffee h4 {
+    font-size: 20px; }
+  .best-coffee h6 {
+    font-size: 10.5px; } }
 
 @media (max-width: 321px) {
   h1 {
