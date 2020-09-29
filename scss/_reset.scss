@@ -6,57 +6,57 @@
 
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: $font-stack-2;
-    width: 100%;
-    color: $black;
+  font-family: $font-stack-2;
+  width: 100%;
+  color: $black;
 
-    ul {
-        list-style: none;
-    }
+  ul {
+    list-style: none;
+  }
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 
-    &:hover {
-        color: lighten($orange, 10%);
-        text-decoration: none;
-    }
+  &:hover {
+    color: lighten($orange, 10%);
+    text-decoration: none;
+  }
 }
 
 .orange-text {
-    color: $orange;
+  color: $orange;
 }
 
 .gray-text {
-    color: $gray;
+  color: $gray;
 }
 
 .black-text {
-    color: $black;
+  color: $black;
 }
 
 .bg-black {
-    background-color: $black;
+  background-color: $black;
 }
 
 .bg-gray {
-    background-color: $gray;
+  background-color: $gray;
 }
 
 .bg-dark-gray {
-    background-color: $dark-gray;
+  background-color: $dark-gray;
 }
 
 .bg-orange {
-    background-color: $orange;
+  background-color: $orange;
 }

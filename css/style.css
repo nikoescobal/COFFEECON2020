@@ -88,8 +88,6 @@ a {
     .showcase-bottom-caption {
       border-radius: 5px;
       background: rgba(236, 82, 66, 0.7); }
-      .showcase-bottom-caption-caption:hover {
-        background: red; }
 
 .top-nav {
   height: 30px; }
@@ -159,8 +157,7 @@ h1 {
     color: white;
     border: transparent;
     background-color: #eb4534;
-    border-radius: 50px;
-    box-shadow: 10px -10px 4px 1px #272a31 255, 255, 255, 1; }
+    border-radius: 50px; }
   .main-program .coffee-caption {
     width: 100%; }
 
@@ -173,20 +170,20 @@ h1 {
   max-width: 100%;
   height: 10rem;
   opacity: 1;
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out; }
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out; }
 
 .avatar:hover {
-  opacity: .5; }
+  opacity: 0.5; }
 
 .avatar-2 {
   object-fit: cover;
   opacity: 1;
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out; }
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out; }
 
 .avatar-2:hover {
-  opacity: .5; }
+  opacity: 0.5; }
 
 .partners {
   background-color: #36383e; }
@@ -216,9 +213,8 @@ h1 {
     color: #494949; }
     .about-bottom-caption {
       border-radius: 5px;
-      background: rgba(255, 255, 255, 0.7); }
-      .about-bottom-caption-caption:hover {
-        background: red; }
+      background-color: white;
+      opacity: 0.7; }
 
 .best-coffee figcaption p {
   display: flex;
@@ -256,5 +252,4 @@ h1 {
   color: white;
   border: transparent;
   background-color: #eb4534;
-  border-radius: 50px;
-  box-shadow: 10px -10px 4px 1px #272a31 255, 255, 255, 1; }
+  border-radius: 50px; }

@@ -1,82 +1,77 @@
 @mixin flex-center {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .main-program {
-    background-image: linear-gradient(to top left, transparentize(black, 0.2), transparentize(black, 0.2)), url(https://i.pinimg.com/originals/87/c1/d2/87c1d2e0bd88142fd47549b2e86f247b.jpg);
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
+  background-image: linear-gradient(to top left, transparentize(black, 0.2), transparentize(black, 0.2)), url(https://i.pinimg.com/originals/87/c1/d2/87c1d2e0bd88142fd47549b2e86f247b.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  font: $font-stack-1;
+  cursor: pointer;
+  height: auto;
+
+  .content {
+    background: transparentize($black, 0.5);
+    backdrop-filter: blur(4px);
+    border-radius: 15px;
+  }
+
+  .main-button {
+    width: 18em;
+    color: lighten($gray, 85%);
+    border: transparent;
+    background-color: darken($orange, 3%);
+    border-radius: 50px;
+  }
+
+  .coffee-caption {
     width: 100%;
-    position: relative;
-    font: $font-stack-1;
-    cursor: pointer;
-    height: auto;
-
-    .content {
-        background: transparentize($black, 0.5);
-        backdrop-filter: blur(4px);
-        border-radius: 15px;
-        // min-height: 200px;
-    }
-
-    .main-button {
-        width: 18em;
-        color: lighten($gray, 85%);
-        border: transparent;
-        background-color: darken($orange, 3%);
-        border-radius: 50px;
-        box-shadow: 10px -10px 4px 1px $black(255, 255, 255, 1);
-    }
-
-
-    .coffee-caption {
-        width: 100%;
-    }
-
+  }
 }
 
 .coffee-connoiseurs figure {
-    width: 100%;
+  width: 100%;
 }
 
 .avatar {
-    object-fit: cover;
-    width: 10rem;
-    max-width: 100%;
-    height: 10rem;
-    opacity: 1;
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+  object-fit: cover;
+  width: 10rem;
+  max-width: 100%;
+  height: 10rem;
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .avatar:hover {
-    opacity: .5;
+  opacity: 0.5;
 }
 
 .avatar-2 {
-    object-fit: cover;
-    opacity: 1;
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+  object-fit: cover;
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .avatar-2:hover {
-    opacity: .5;
+  opacity: 0.5;
 }
 
-
 .partners {
-    background-color: darken($dark-gray, 3%);
+  background-color: darken($dark-gray, 3%);
 }
 
 .fancy-border {
-    border: 10px solid $black;
-    border-image: url("/assets/bg-gradient.png");
-    border-image-slice: 230 100 110;
+  border: 10px solid $black;
+  border-image: url("/assets/bg-gradient.png");
+  border-image-slice: 230 100 110;
 }
 
 .table-border {
-    border: 3px solid $black;
+  border: 3px solid $black;
 }
