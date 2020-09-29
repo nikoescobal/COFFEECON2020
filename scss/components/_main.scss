@@ -18,6 +18,7 @@
         background: transparentize($black, 0.5);
         backdrop-filter: blur(4px);
         border-radius: 15px;
+        // min-height: 200px;
     }
 
     .main-button {
@@ -37,8 +38,8 @@
 }
 
 .coffee-connoiseurs figure {
-    width: 100%; 
-       }
+     width: 100%; 
+        }
 
     .avatar {
         object-fit: cover;

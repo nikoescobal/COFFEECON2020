@@ -1,0 +1,16 @@
+.special-border {
+    width: 60vw;
+    height: 60vh;
+    border: 20px solid;
+    border-image: url("https://i.pinimg.com/originals/0e/b9/66/0eb966f0c53f61cf3f26b4f84e14ca30.jpg");
+    border-image-slice: 230 100 110;
+}
+
+ .special-radius {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 16px black;
+ }
+  
+  

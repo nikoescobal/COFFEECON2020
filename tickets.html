@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;800;900&family=Heebo:wght@600;700;800;900&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Maven+Pro:wght@600;700;800;900&family=Raleway:wght@600;700;800;900&family=Work+Sans:wght@600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML/CSS Capstone Project</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <main>
+        <header>
+            <i class="header-logo d-flex d-md-none fa fa-bars" aria-hidden="true"></i>
+            <nav class="navbar navbar-expand-md d-none d-md-block  p-0">
+                <ul class="top-nav d-flex align-items-center justify-content-end bg-black m-0">
+                    <li>
+                        <i class="gray-text"> <a class="fab fa-line px-2" href="#"></a> </i>
+                    </li>
+                    <li>
+                        <i class="gray-text"> <a class="fab fa-facebook-f px-2" href="#"></a> </i>
+                    </li>
+                    <li>
+                        <i class="gray-text"> <a class="fab fa-twitter px-2" href="#"></a> </i>
+                    </li>
+                    <li>
+                        <i class="gray-text"> <a class="fab fa-instagram px-2" href="#"></a> </i>
+                    </li>
+
+                    <li>
+                        <a class="gray-text px-2 font-weight-bold text-uppercase" href="#">blog</a>
+                    </li>
+                    <li>
+                        <a class="gray-text px-2 font-weight-bold text-uppercase" href="#">buy tickets</a>
+                    </li>
+                    <li>
+                        <a class="gray-text px-2 font-weight-bold text-uppercase mr-2" href="#">login</a>
+                    </li>
+                </ul>
+                <i class="d-md-none fa fa-bars" aria-hidden="true"></i>
+
+                <div
+                    class="bot-nav container-fluid d-flex align-items-md-center justify-content-between bg-gray align-items-center m-0">
+                    <div class="nav-logo">
+                        <a class="orange-text" href="#"> <img class="align-items-center my-1"
+                                src="https://coffee-con.com/wp-content/uploads/2016/10/cropped-coffee-con-logo-generic02-e1476840155520.png"
+                                width="48" height="48" alt=""> </a>
+                    </div>
+
+                    <div class="nav-social">
+                        <a class="orange-text px-2 font-weight-bold text-uppercase" href="#">about</a>
+                        <a class="black-text px-2 font-weight-bold text-uppercase" href="#">program</a>
+                        <a class="black-text px-2 font-weight-bold text-uppercase" href="#">join</a>
+                        <a class="black-text px-2 font-weight-bold text-uppercase" href="#">sponsor</a>
+                        <a class="black-text px-2 font-weight-bold text-uppercase" href="#">news</a>
+                    </div>
+
+                </div>
+            </nav>
+        </header>
+        <div>
+            <section class="tickets">
+                <div class="container">
+
+                    <div>
+                        <article class="d-flex flex-column pt-1 pt-md-0">
+                            <figure class="mb-md-0 mb-lg-0 mb-md-2 mb-lg-2">
+                                <img>
+                                <figcaption class="pb-md-1">
+                                    <h2
+                                        class="d-flex font-weight-bold text-uppercase mt-2 mx-auto mb-0 justify-content-center">
+                                        <a href="#">select ticket tier</a>
+                                    </h2>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </div>
+
+                    <div class="about-bottom font-weight-bold">
+                        <div class="header-bottom d-flex flex-column align-items-center justify-content-center">
+
+
+                            <button
+                                class="ticket-button d-flex border-transparent border rounded-pill bg-white mx-auto my-5 py-2 px-3 px-md-5 font-weight-bold">
+                                <div class="orange-text font-weight-bold text-uppercase mr-4">&diam; step 1</div>
+                                Please select your preferred ticket tier
+                            </button>
+
+                            <div class="special-radius">
+                                <div class="special-border">
+                                    <table class="my-5 Ticket-table table table-hover">
+                                        <thead>
+                                            <tr class="bg-dark-gray gray-text">
+                                                <th scope="col">Ticket Tier</th>
+                                                <th scope="col">Half Day</th>
+                                                <th scope="col">1-Day</th>
+                                                <th scope="col">2-Day</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="orange-text" >
+                                                <th class="orange-text" scope="row">Silver</th>
+                                                <td>$100</td>
+                                                <td>$160</td>
+                                                <td>$200</td>
+                                            </tr>
+                                            <tr class="orange-text" >
+                                                <th scope="row">Gold</th>
+                                                <td>$150</td>
+                                                <td>$200</td>
+                                                <td>$250</td>
+                                            </tr>
+                                            <tr class="orange-text" >
+                                                <th scope="row">Platinum</th>
+                                                <td>$150</td>
+                                                <td>$200</td>
+                                                <td>$250</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <p class="my-3 text-warning justify-content-center text-center orange font-weight-bold">Got
+                                a
+                                question? Drop us a line - we're always happy to help!<a href="#">&nbsp;
+                                    info@coffeecon2020.com</a> </p>
+                            <table class="my-5 Ticket-table table table-hover">
+                                <thead>
+                                    <tr class="bg-dark-gray gray-text">
+                                        <th scope="col">Ticket Tier</th>
+                                        <th scope="col">Half Day</th>
+                                        <th scope="col">1-Day</th>
+                                        <th scope="col">2-Day</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="orange-text" >
+                                        <th class="orange-text" scope="row">Silver</th>
+                                        <td>$100</td>
+                                        <td>$160</td>
+                                        <td>$200</td>
+                                    </tr>
+                                    <tr class="orange-text" >
+                                        <th scope="row">Gold</th>
+                                        <td>$150</td>
+                                        <td>$200</td>
+                                        <td>$250</td>
+                                    </tr>
+                                    <tr class="orange-text" >
+                                        <th scope="row">Platinum</th>
+                                        <td>$150</td>
+                                        <td>$200</td>
+                                        <td>$250</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+
+
+                            <table class="my-5 Ticket-table table table-hover border">
+                                <thead>
+                                    <tr class="bg-dark-gray gray-text">
+                                        <th scope="col">Ticket Tier</th>
+                                        <th scope="col">Half Day</th>
+                                        <th scope="col">1-Day</th>
+                                        <th scope="col">2-Day</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Silver</th>
+                                        <td><input type="radio" id="menu-1" name="menu"></td>
+                                        <td><input type="radio" id="menu-1" name="menu"></td>
+                                        <td><input type="radio" id="menu-1" name="menu"></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Gold</th>
+                                        <td><input type="radio" id="menu-1" name="menu"></td>
+                                        <td><input type="radio" id="menu-1" name="menu"></td>
+                                        <td><input type="radio" id="menu-1" name="menu"></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Platinum</th>
+                                        <td><input type="radio" id="menu-1" name="menu"></td>
+                                        <td><input type="radio" id="menu-1" name="menu"></td>
+                                        <td><input type="radio" id="menu-1" name="menu"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        </div>
+
+        <footer class="container-fluid bg-black px-4 pt-4 pb-3">
+            <div class="row d-flex gray-text">
+                <div class="col-12 d-flex justify-content-between align-items-end">
+
+                    <div class="d-flex flex-column">
+                        <p class="my-1"><a class="font-weight-bold" href="#">FAQ</a></p>
+                        <p class="my-1"><a class="font-weight-bold" href="#">About</a></p>
+                        <p class="my-1"><a class="font-weight-bold" href="#">Contact Us</a></p>
+                        <p class="my-1"><a class="font-weight-bold" href="#">Buy Tickets</a></p>
+                    </div>
+
+                    <div class="d-flex flex-column align-items-end">
+                        <div class="footer-logo d-flex align-items-end">
+                            <a href="#"> <img class="align-items-center my-1"
+                                    src="https://coffee-con.com/wp-content/uploads/2016/10/cropped-coffee-con-logo-generic02-e1476840155520.png"
+                                    width="48" height="48" alt="footer logo"> &nbsp; </a>
+                        </div>
+                        <div class="footer-copyright d-flex flex-column align-items-end">
+                            <p class="my-1"><a class="orange-text font-italic" href="#">www.coffeecon.com</a></p>
+                            <p class="d-none d-md-block my-1 font-weight-bold">© 2020 COFFEECON 2020.&nbsp; All rights
+                                reserved.</p>
+                            <p class="d-md-none my-1 font-weight-bold">© 2020 COFFEECON 2020.</p>
+                            <p class="d-md-none my-1 font-weight-bold">All rights reserved.</p>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </footer>
+
+    </main>
+
+</body>
+
+</html>
