@@ -79,8 +79,8 @@
                                 <img>
                                 <figcaption class="pb-md-1">
                                     <h2
-                                        class="d-flex font-weight-bold text-uppercase mt-2 mx-auto mb-0 justify-content-center">
-                                        <a href="#">select ticket tier</a>
+                                        class="d-flex font-weight-bold text-uppercase my-4 mx-auto mb-0 justify-content-center">
+                                        <a class="border-bottom" href="#">select your ticket</a>
                                     </h2>
                                 </figcaption>
                             </figure>
@@ -92,113 +92,95 @@
 
 
                             <button
-                                class="ticket-button d-flex border-transparent border rounded-pill bg-white mx-auto my-5 py-2 px-3 px-md-5 font-weight-bold">
+                                class="ticket-button d-flex border-transparent border rounded-pill bg-white mx-auto py-2 mt-4 mb-3 px-3 px-md-5 font-weight-bold">
                                 <div class="orange-text font-weight-bold text-uppercase mr-4">&diam; step 1</div>
-                                Please select your preferred ticket tier
+                                Please select your preferred ticket
                             </button>
 
-                            <div class="special-radius">
-                                <div class="special-border">
-                                    <table class="my-5 Ticket-table table table-hover">
-                                        <thead>
-                                            <tr class="bg-dark-gray gray-text">
-                                                <th scope="col">Ticket Tier</th>
-                                                <th scope="col">Half Day</th>
-                                                <th scope="col">1-Day</th>
-                                                <th scope="col">2-Day</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr class="orange-text" >
-                                                <th class="orange-text" scope="row">Silver</th>
-                                                <td>$100</td>
-                                                <td>$160</td>
-                                                <td>$200</td>
-                                            </tr>
-                                            <tr class="orange-text" >
-                                                <th scope="row">Gold</th>
-                                                <td>$150</td>
-                                                <td>$200</td>
-                                                <td>$250</td>
-                                            </tr>
-                                            <tr class="orange-text" >
-                                                <th scope="row">Platinum</th>
-                                                <td>$150</td>
-                                                <td>$200</td>
-                                                <td>$250</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
+                            <div class="tables">
+                                <table class="ticket-table my-5 table table-hover table-border">
+                                    <thead>
+                                        <tr class="bg-black gray-text">
+                                            <th scope="col">Ticket</th>
+                                            <th scope="col">Day Pass</th>
+                                            <th scope="col">2-Day Pass</th>
+                                            <th scope="col">3-Day Pass</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="orange-text">
+                                            <th class="black-text" scope="row">Silver</th>
+                                            <td>$100</td>
+                                            <td>$160</td>
+                                            <td>$200</td>
+                                        </tr>
+                                        <tr class="orange-text">
+                                            <th class="black-text" scope="row">Gold</th>
+                                            <td>$150</td>
+                                            <td>$200</td>
+                                            <td>$250</td>
+                                        </tr>
+                                        <tr class="orange-text">
+                                            <th class="black-text" scope="row">Platinum</th>
+                                            <td>$150</td>
+                                            <td>$200</td>
+                                            <td>$250</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <table class="entree-table my-5 table table-hover table-border">
+                                    <thead>
+                                        <tr class="bg-black text-white">
+                                            <th scope="col">Date</th>
+                                            <th scope="col"></th>
+                                            <th scope="col">Entrée Selection</th>
+                                            <th scope="col"></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="orange-text">
+                                            <th class="black-text" scope="row">Oct. 10 (Wed)</th>
+                                            <td><input type="radio" id="menu-1" name="menu">
+                                                <label for="menu-1">Slow-Cooked Boeuf Bourguignon</label>
+                                            </td>
+                                            <td><input type="radio" id="menu-2" name="menu">
+                                                <label for="menu-2">Parmesan Risotto with Roasted Shrimp</label>
+                                            </td>
+                                            <td><input type="radio" id="menu-3" name="menu">
+                                                <label for="menu-3">Karai Tokusei Ramen</label>
+                                            </td>
+                                        </tr>
+                                        <tr class="orange-text">
+                                            <th class="black-text" scope="row">Oct. 11 (Thurs)</th>
+                                            <td><input type="radio" id="menu-4" name="menu-1">
+                                                <label for="menu-4">Peppercorn and Garam Masala Gyoza</label>
+                                            </td>
+                                            <td><input type="radio" id="menu-5" name="menu-1">
+                                                <label for="menu-5">Jalapeno and Nectarine Dumplings</label>
+                                            </td>
+                                            <td><input type="radio" id="menu-6" name="menu-1">
+                                                <label for="menu-6">Spicy Tuna Maki</label>
+                                            </td>
+                                        </tr>
+                                        <tr class="orange-text">
+                                            <th class="black-text" scope="row">Oct. 12 (Fri)</th>
+                                            <td><input type="radio" id="menu-7" name="menu-2">
+                                                <label for="menu-7">Pappardelle with Sea Urchin and Cauliflower</label>
+                                            </td>
+                                            <td><input type="radio" id="menu-8" name="menu-2">
+                                                <label for="menu-8">Sausage Ragù over Creamy Polenta</label>
+                                            </td>
+                                            <td><input type="radio" id="menu-9" name="menu-2">
+                                                <label for="menu-9">Beef Wellington</label>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
                             </div>
 
-                            <p class="my-3 text-warning justify-content-center text-center orange font-weight-bold">Got
-                                a
-                                question? Drop us a line - we're always happy to help!<a href="#">&nbsp;
-                                    info@coffeecon2020.com</a> </p>
-                            <table class="my-5 Ticket-table table table-hover">
-                                <thead>
-                                    <tr class="bg-dark-gray gray-text">
-                                        <th scope="col">Ticket Tier</th>
-                                        <th scope="col">Half Day</th>
-                                        <th scope="col">1-Day</th>
-                                        <th scope="col">2-Day</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr class="orange-text" >
-                                        <th class="orange-text" scope="row">Silver</th>
-                                        <td>$100</td>
-                                        <td>$160</td>
-                                        <td>$200</td>
-                                    </tr>
-                                    <tr class="orange-text" >
-                                        <th scope="row">Gold</th>
-                                        <td>$150</td>
-                                        <td>$200</td>
-                                        <td>$250</td>
-                                    </tr>
-                                    <tr class="orange-text" >
-                                        <th scope="row">Platinum</th>
-                                        <td>$150</td>
-                                        <td>$200</td>
-                                        <td>$250</td>
-                                    </tr>
-                                </tbody>
-                            </table>
 
-
-
-                            <table class="my-5 Ticket-table table table-hover border">
-                                <thead>
-                                    <tr class="bg-dark-gray gray-text">
-                                        <th scope="col">Ticket Tier</th>
-                                        <th scope="col">Half Day</th>
-                                        <th scope="col">1-Day</th>
-                                        <th scope="col">2-Day</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">Silver</th>
-                                        <td><input type="radio" id="menu-1" name="menu"></td>
-                                        <td><input type="radio" id="menu-1" name="menu"></td>
-                                        <td><input type="radio" id="menu-1" name="menu"></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Gold</th>
-                                        <td><input type="radio" id="menu-1" name="menu"></td>
-                                        <td><input type="radio" id="menu-1" name="menu"></td>
-                                        <td><input type="radio" id="menu-1" name="menu"></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Platinum</th>
-                                        <td><input type="radio" id="menu-1" name="menu"></td>
-                                        <td><input type="radio" id="menu-1" name="menu"></td>
-                                        <td><input type="radio" id="menu-1" name="menu"></td>
-                                    </tr>
-                                </tbody>
-                            </table>
 
 
 
@@ -209,7 +191,7 @@
         </div>
         </div>
 
-        <footer class="container-fluid bg-black px-4 pt-4 pb-3">
+        <footer class="container-fluid bg-black px-4 pt-4 mt-5 pb-3">
             <div class="row d-flex gray-text">
                 <div class="col-12 d-flex justify-content-between align-items-end">
 

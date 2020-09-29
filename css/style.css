@@ -121,9 +121,11 @@ h1 {
   .past-coffeecon h2 {
     font-size: 24px; }
   .tickets h2 {
-    font-size: 30px; }
+    font-size: 28px; }
   .ticket-button {
-    font-size: 11px; } }
+    font-size: 11px; }
+  .tables {
+    font-size: 11.5px; } }
 
 @media (max-width: 321px) {
   h1 {
@@ -170,6 +172,14 @@ h1 {
 
 .partners {
   background-color: #36383e; }
+
+.fancy-border {
+  border: 10px solid #272A31;
+  border-image: url("/assets/bg-gradient.png");
+  border-image-slice: 230 100 110; }
+
+.table-border {
+  border: 3px solid #272A31; }
 
 .about {
   background-image: url(https://nationalcoffeeblog.files.wordpress.com/2018/11/limitless-coffee.gif), linear-gradient(to top left, black, #D3D3D3);
@@ -230,16 +240,3 @@ h1 {
   background-color: #eb4534;
   border-radius: 50px;
   box-shadow: 10px -10px 4px 1px #272A31 255, 255, 255, 1; }
-
-.special-border {
-  width: 60vw;
-  height: 60vh;
-  border: 20px solid;
-  border-image: url("https://i.pinimg.com/originals/0e/b9/66/0eb966f0c53f61cf3f26b4f84e14ca30.jpg");
-  border-image-slice: 230 100 110; }
-
-.special-radius {
-  display: inline-block;
-  overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 0 0 16px black; }

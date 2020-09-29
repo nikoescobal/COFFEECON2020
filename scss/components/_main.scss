@@ -52,4 +52,15 @@
         background-color: darken($dark-gray, 3%);
     }
 
-    
+    .fancy-border {
+        border: 10px solid $black;
+        border-image: url("/assets/bg-gradient.png");
+        border-image-slice: 230 100 110;
+      }
+
+      .table-border {
+        border: 3px solid $black;
+    }
+
+
+
