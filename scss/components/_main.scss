@@ -38,29 +38,45 @@
 }
 
 .coffee-connoiseurs figure {
-     width: 100%; 
-        }
+    width: 100%;
+}
 
-    .avatar {
-        object-fit: cover;
-        width: 10rem;
-        max-width: 100%;
-        height: 10rem;
-    }
-   
-    .partners {
-        background-color: darken($dark-gray, 3%);
-    }
+.avatar {
+    object-fit: cover;
+    width: 10rem;
+    max-width: 100%;
+    height: 10rem;
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
 
-    .fancy-border {
-        border: 10px solid $black;
-        border-image: url("/assets/bg-gradient.png");
-        border-image-slice: 230 100 110;
-      }
+.avatar:hover {
+    opacity: .5;
+}
 
-      .table-border {
-        border: 3px solid $black;
-    }
+.avatar-2 {
+    object-fit: cover;
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.avatar-2:hover {
+    opacity: .5;
+}
 
 
+.partners {
+    background-color: darken($dark-gray, 3%);
+}
 
+.fancy-border {
+    border: 10px solid $black;
+    border-image: url("/assets/bg-gradient.png");
+    border-image-slice: 230 100 110;
+}
+
+.table-border {
+    border: 3px solid $black;
+}

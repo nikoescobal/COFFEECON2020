@@ -168,7 +168,22 @@ h1 {
   object-fit: cover;
   width: 10rem;
   max-width: 100%;
-  height: 10rem; }
+  height: 10rem;
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out; }
+
+.avatar:hover {
+  opacity: .5; }
+
+.avatar-2 {
+  object-fit: cover;
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out; }
+
+.avatar-2:hover {
+  opacity: .5; }
 
 .partners {
   background-color: #36383e; }
