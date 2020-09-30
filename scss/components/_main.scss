@@ -4,7 +4,7 @@
 }
 
 .main-program {
-  background-image: url(https://i.pinimg.com/originals/87/c1/d2/87c1d2e0bd88142fd47549b2e86f247b.jpg), linear-gradient(to top left, darken($black, 75%), $black);
+  background-image: url(https://i.pinimg.com/originals/87/c1/d2/87c1d2e0bd88142fd47549b2e86f247b.jpg), linear-gradient(to top left, lighten(black, 5%), black);
   background-color: $black;
   opacity: 0.8;
   background-blend-mode: overlay;
