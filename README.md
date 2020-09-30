@@ -19,7 +19,8 @@ I built this website with a mobile-first approach, applying fluid design princip
 
 To get a local copy of the repository please run the following commands on your terminal:
 
-```git clone git@github.com:nikoescobal/COFFEECON2020.git
+```
+git clone git@github.com:nikoescobal/COFFEECON2020.git
 ```
 
 ## Linters
