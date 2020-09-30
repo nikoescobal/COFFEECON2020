@@ -4,20 +4,19 @@
 }
 
 .main-program {
-  background-image: url(https://i.pinimg.com/originals/87/c1/d2/87c1d2e0bd88142fd47549b2e86f247b.jpg), linear-gradient(to top left, transparentize($black, 0.3), transparentize($black, 0.3));
+  background-image: url(https://i.pinimg.com/originals/87/c1/d2/87c1d2e0bd88142fd47549b2e86f247b.jpg), linear-gradient(to top left, darken($black, 75%), $black);
   background-color: $black;
+  opacity: 0.8;
   background-blend-mode: overlay;
   background-position: center center;
-  background-attachment: fixed;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   width: 100%;
   position: relative;
   font: $font-stack-1;
   cursor: pointer;
   height: auto;
-  background-image: url(/assets/coffee.gif), linear-gradient(to top left, darken($black, 75%), $gray);
-
 
   .content {
     background: transparentize($black, 0.5);
