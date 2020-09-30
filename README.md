@@ -2,6 +2,8 @@
 
 The purpose of this project was to demonstrate mastery of HTML and CSS fundamentals, by conceptualizing and building an original website given specific [design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) guidelines. The concept of the project is COFFEECON2020 - the ultimate global coffee conference.
 
+I built this website with the mobile-first approach. It is fully-responsive across all breakpoints, from 320px up.
+
 ![coffeecon-screenshot-1](https://user-images.githubusercontent.com/62937819/94630559-bcf12f80-02f8-11eb-8750-f5e50fd1556b.png)
 ![coffeecon-screenshot-2](https://user-images.githubusercontent.com/62937819/94630571-c37fa700-02f8-11eb-8c9c-95e5eec262e8.png)
 ![coffeecon-screenshot-3](https://user-images.githubusercontent.com/62937819/94630579-c5e20100-02f8-11eb-9eb8-82554f46dcdd.png)
