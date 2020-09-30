@@ -4,8 +4,9 @@ The purpose of this project was to demonstrate mastery of HTML and CSS fundament
 
 I built this website with a mobile-first approach, applying fluid design principles -- It is fully-responsive across all breakpoints, from 320px up in all screens.
 
-![full-screenshot](https://user-images.githubusercontent.com/62937819/94720193-bc06df00-0386-11eb-8bbe-a5ddc9b8e4ab.png)
+![full-screenshot](https://user-images.githubusercontent.com/62937819/94750101-ec1aa600-03b7-11eb-9c81-5b34798e1338.png)
 
+Check out my video presentation [here](https://www.loom.com/share/279cc63ac57f439d891ee50b18b8f8b8). 
 
 ## Built with
 
