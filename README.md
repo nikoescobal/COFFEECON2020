@@ -1,6 +1,6 @@
 # [COFFEECON2020](https://coffeecon2020.netlify.app/) (HTML-CSS Microverse Capstone Project)
 
-The purpose of this project was to demonstrate mastery of HTML and CSS fundamentals, by conceptualizing and building an original website given specific [design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) guidelines. The concept of the project is COFFEECON202 - the ultimate global coffee conference.
+The purpose of this project was to demonstrate mastery of HTML and CSS fundamentals, by conceptualizing and building an original website given specific [design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) guidelines. The concept of the project is COFFEECON2020 - the ultimate global coffee conference.
 
 ![coffeecon-screenshot-1](https://user-images.githubusercontent.com/62937819/94630559-bcf12f80-02f8-11eb-8750-f5e50fd1556b.png)
 ![coffeecon-screenshot-2](https://user-images.githubusercontent.com/62937819/94630571-c37fa700-02f8-11eb-8c9c-95e5eec262e8.png)
