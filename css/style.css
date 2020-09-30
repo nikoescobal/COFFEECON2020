@@ -80,7 +80,7 @@ a {
   background-size: cover;
   width: 100%;
   position: relative;
-  font: "Cocogoose-regular", sans-serif;
+  font: "Cocogoose", sans-serif;
   cursor: pointer;
   height: 500px; }
   .showcase-bottom {
@@ -94,7 +94,7 @@ a {
 
 h1 {
   color: #ec5242;
-  font-family: "Cocogoose-regular", sans-serif;
+  font-family: "Cocogoose", sans-serif;
   font-size: 45px;
   font-weight: 700; }
 
@@ -147,7 +147,7 @@ h1 {
   background-size: cover;
   width: 100%;
   position: relative;
-  font: "Cocogoose-regular", sans-serif;
+  font: "Cocogoose", sans-serif;
   cursor: pointer;
   height: auto; }
   .main-program .content {
@@ -208,7 +208,7 @@ h1 {
   background-size: cover;
   width: 100%;
   position: relative;
-  font: "Cocogoose-regular", sans-serif;
+  font: "Cocogoose", sans-serif;
   cursor: pointer;
   height: 500px; }
   .about-bottom {
@@ -231,7 +231,7 @@ h1 {
   background-size: cover;
   width: 100%;
   position: relative;
-  font: "Cocogoose-regular", sans-serif;
+  font: "Cocogoose", sans-serif;
   cursor: pointer;
   height: auto; }
 
@@ -243,7 +243,7 @@ h1 {
   background-size: cover;
   width: 100%;
   position: relative;
-  font: "Cocogoose-regular", sans-serif;
+  font: "Cocogoose", sans-serif;
   cursor: pointer;
   height: auto; }
 
@@ -255,5 +255,7 @@ h1 {
   border-radius: 50px; }
 
 @font-face {
-  font-family: "Cocogoose-regular";
-  src: url("/assets/fonts/Cocogoose Pro-trial.ttf") format("ttf"); }
+  font-family: "Cocogoose";
+  src: url("/assets/CocogooseCondensed-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal; }
