@@ -2,40 +2,40 @@
 
 The purpose of this project was to demonstrate mastery of HTML and CSS fundamentals, by conceptualizing and building an original website given specific [design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) guidelines. The concept of the project is COFFEECON2020 - the ultimate global coffee conference.
 
-I built this website with the mobile-first approach. It is fully-responsive across all breakpoints, from 320px up.
+I built this website with a mobile-first approach, applying fluid design principles -- It is fully-responsive across all breakpoints, from 320px up in all screens.
 
-![coffeecon-screenshot-1](https://user-images.githubusercontent.com/62937819/94630559-bcf12f80-02f8-11eb-8750-f5e50fd1556b.png)
-![coffeecon-screenshot-2](https://user-images.githubusercontent.com/62937819/94630571-c37fa700-02f8-11eb-8c9c-95e5eec262e8.png)
-![coffeecon-screenshot-3](https://user-images.githubusercontent.com/62937819/94630579-c5e20100-02f8-11eb-9eb8-82554f46dcdd.png)
-![coffeecon-screenshot-4](https://user-images.githubusercontent.com/62937819/94630580-c7132e00-02f8-11eb-950a-f373be22b57e.png)
+![full-screenshot](https://user-images.githubusercontent.com/62937819/94720193-bc06df00-0386-11eb-8bbe-a5ddc9b8e4ab.png)
+
 
 ## Built with
 
 - HTML 
-- CSS
+- CSS/SCSS
 - Sass
 - BootStrap
 - Lots of :heart: 
 
-## Set Up
+## Getting Started
 
 To get a local copy of the repository please run the following commands on your terminal:
 
-git clone git@github.com:nikoescobal/COFFEECON2020.git
+```git clone git@github.com:nikoescobal/COFFEECON2020.git
+```
 
 ## Linters
 
+```
 run npm install.
 run npm run test to check and validate the HTML and CSS files.
+```
 
-## Deployment
-
-Install and run a live server plugin on your IDE/Text editor, then run it from the root directory.
 ## Live Demo
 
 [Live Demo Link](https://coffeecon2020.netlify.app/)
 
-## Author (Feel free to reach out. I'm always happy to connect :slightly_smiling_face:)
+## Author 
+
+Feel free to reach out. I'm always happy to connect :slightly_smiling_face:
 
 👤 **Nikolas Escobal**
 
@@ -59,7 +59,7 @@ Give a ⭐️ if you dig this project!
 - Microverse
 - The Odin Project
 - [Cindy Shin for the design inspiration](https://www.behance.net/adagio07)
-- My awesome bros [Chad](https://github.com/El-Potato-Slayer), [Mkrtich](https://github.com/MkrtichSargsyan/), [Somoye](https://github.com/somoye123/), [Mohap](https://github.com/mohapakram), [Mahmoud](https://github.com/MahmoudBakr23/) for the support. Love you, guys :heart:
+- My awesome friends [Mkrtich](https://github.com/MkrtichSargsyan/), [Somoye](https://github.com/somoye123/), [Mohap](https://github.com/mohapakram), and [Raza](https://github.com/rahalrazika) for the support. Love you, guys :heart:
 
 
 ## 📝 MIT License
