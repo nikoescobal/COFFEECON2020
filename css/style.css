@@ -202,7 +202,7 @@ h1 {
 
 .main-program {
   background-image: url(https://i.pinimg.com/originals/87/c1/d2/87c1d2e0bd88142fd47549b2e86f247b.jpg), linear-gradient(to top left, #0d0d0d, black);
-  background-color: #272a31;
+  background-color: transparent;
   opacity: 0.8;
   background-blend-mode: overlay;
   background-position: center center;
