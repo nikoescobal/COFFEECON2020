@@ -8,16 +8,17 @@
   background-size: cover;
   width: 100%;
   position: relative;
-  font: $font-stack-1;
   cursor: pointer;
   height: 500px;
 
   &-bottom {
     color: lighten($gray, 1%);
+    font-family: $font-stack-1;
 
     &-caption:first-child {
       border-radius: 5px;
       background: transparentize($orange, 0.3);
+      font-family: $font-stack-2;
     }
   }
 }

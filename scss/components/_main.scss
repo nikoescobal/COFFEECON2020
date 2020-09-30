@@ -3,6 +3,11 @@
   justify-content: center;
 }
 
+h2,
+h3 {
+  font-family: $font-stack-1;
+}
+
 .main-program {
   background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://i.pinimg.com/originals/87/c1/d2/87c1d2e0bd88142fd47549b2e86f247b.jpg);
   background-color: transparent;
