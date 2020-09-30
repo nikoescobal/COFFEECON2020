@@ -15,7 +15,7 @@
   &-bottom {
     color: lighten($gray, 1%);
 
-    &-caption {
+    &-caption:first-child {
       border-radius: 5px;
       background: transparentize($orange, 0.3);
     }
