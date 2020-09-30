@@ -8,19 +8,22 @@ i.fa-bars::before {
   color: #32363f;
   padding: 15px 25px;
   display: flex;
-  align-items: center; }
+  align-items: center;
+}
 
 i.fa-facebook-f::before {
   font-size: 18px;
   color: #d3d3d3;
   display: flex;
-  align-items: center; }
+  align-items: center;
+}
 
 i.fa-twitter::before {
   font-size: 18px;
   color: #d3d3d3;
   display: flex;
-  align-items: center; }
+  align-items: center;
+}
 
 /*
       ==============================================
@@ -33,42 +36,56 @@ i.fa-twitter::before {
   padding: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 body {
   font-family: "Lato", sans-serif;
   width: 100%;
-  color: #272a31; }
-  body ul {
-    list-style: none; }
+  color: #272a31;
+}
+
+body ul {
+  list-style: none;
+}
 
 a {
   color: inherit;
-  text-decoration: none; }
-  a:hover {
-    color: #f17c70;
-    text-decoration: none; }
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f17c70;
+  text-decoration: none;
+}
 
 .orange-text {
-  color: #ec5242; }
+  color: #ec5242;
+}
 
 .gray-text {
-  color: #d3d3d3; }
+  color: #d3d3d3;
+}
 
 .black-text {
-  color: #272a31; }
+  color: #272a31;
+}
 
 .bg-black {
-  background-color: #272a31; }
+  background-color: #272a31;
+}
 
 .bg-gray {
-  background-color: #d3d3d3; }
+  background-color: #d3d3d3;
+}
 
 .bg-dark-gray {
-  background-color: #3d3f46; }
+  background-color: #3d3f46;
+}
 
 .bg-orange {
-  background-color: #ec5242; }
+  background-color: #ec5242;
+}
 
 .showcase {
   background-image: url(/assets/coffee.gif), linear-gradient(to top left, black, #d3d3d3);
@@ -80,63 +97,108 @@ a {
   background-size: cover;
   width: 100%;
   position: relative;
-  font: "Cocogoose", sans-serif;
+  font-family: "Cocogoose", sans-serif;
   cursor: pointer;
-  height: 500px; }
-  .showcase-bottom {
-    color: #d6d6d6; }
-    .showcase-bottom-caption:first-child {
-      border-radius: 5px;
-      background: rgba(236, 82, 66, 0.7); }
+  height: 500px;
+}
+
+.showcase-bottom {
+  color: #d6d6d6;
+}
+
+.showcase-bottom-caption:first-child {
+  border-radius: 5px;
+  background: rgba(236, 82, 66, 0.7);
+}
 
 .top-nav {
-  height: 30px; }
+  height: 30px;
+}
 
 h1 {
   color: #ec5242;
   font-family: "Cocogoose", sans-serif;
   font-size: 45px;
-  font-weight: 700; }
+  font-weight: 700;
+}
 
 @media (max-width: 992px) {
   h1 {
-    font-size: 40px; } }
+    font-size: 40px;
+  }
+}
 
 @media (max-width: 767px) {
   .header-logo {
-    background: linear-gradient(to right, #adadad, #ec5242); }
+    background: linear-gradient(to right, #adadad, #ec5242);
+  }
+
   h1 {
-    font-size: 38px; } }
+    font-size: 38px;
+  }
+}
 
 @media (max-width: 576px) {
   h1 {
-    font-size: 30px; }
+    font-size: 30px;
+  }
+
   footer {
-    font-size: 14px; }
+    font-size: 14px;
+  }
+
   .past-coffeecon h2 {
-    font-size: 24px; }
+    font-size: 24px;
+  }
+
   .tickets h1 {
-    font-size: 28px; }
+    font-size: 28px;
+  }
+
   .ticket-button {
-    font-size: 11px; }
+    font-size: 11px;
+  }
+
   .tables {
-    font-size: 11.5px; }
+    font-size: 11.5px;
+  }
+
   .best-coffee h2 {
-    font-size: 28px; }
+    font-size: 28px;
+  }
+
   .best-coffee h4 {
-    font-size: 20px; }
+    font-size: 20px;
+  }
+
   .best-coffee h6 {
-    font-size: 10.5px; } }
+    font-size: 10.5px;
+  }
+}
 
 @media (max-width: 321px) {
   h1 {
-    font-size: 28.5px; }
+    font-size: 28.5px;
+  }
+
   .coffee-connoiseurs h2 {
-    font-size: 26px; } }
+    font-size: 26px;
+  }
+}
 
 @media (min-width: 768px) {
   .showcase-bottom-caption {
-    margin-top: -10px; } }
+    margin-top: -10px;
+  }
+}
+
+.main-button {
+  width: 18em;
+  color: white;
+  border: transparent;
+  background-color: #eb4534;
+  border-radius: 50px;
+}
 
 .main-program {
   background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://i.pinimg.com/originals/87/c1/d2/87c1d2e0bd88142fd47549b2e86f247b.jpg);
@@ -147,24 +209,32 @@ h1 {
   background-size: cover;
   width: 100%;
   position: relative;
-  font: "Cocogoose", sans-serif;
+  font-family: "Cocogoose", sans-serif;
   cursor: pointer;
-  height: auto; }
-  .main-program .content {
-    background: rgba(39, 42, 49, 0.5);
-    backdrop-filter: blur(4px);
-    border-radius: 15px; }
-  .main-program .main-button {
-    width: 18em;
-    color: white;
-    border: transparent;
-    background-color: #eb4534;
-    border-radius: 50px; }
-  .main-program .coffee-caption {
-    width: 100%; }
+  height: auto;
+}
+
+.main-program .content {
+  background: rgba(39, 42, 49, 0.5);
+  backdrop-filter: blur(4px);
+  border-radius: 15px;
+}
+
+.main-program .main-button {
+  width: 18em;
+  color: white;
+  border: transparent;
+  background-color: #eb4534;
+  border-radius: 50px;
+}
+
+.main-program .coffee-caption {
+  width: 100%;
+}
 
 .coffee-connoiseurs figure {
-  width: 100%; }
+  width: 100%;
+}
 
 .avatar {
   object-fit: cover;
@@ -173,30 +243,37 @@ h1 {
   height: 10rem;
   opacity: 1;
   -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out; }
+  transition: 0.3s ease-in-out;
+}
 
 .avatar:hover {
-  opacity: 0.5; }
+  opacity: 0.5;
+}
 
 .avatar-2 {
   object-fit: cover;
   opacity: 1;
   -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out; }
+  transition: 0.3s ease-in-out;
+}
 
 .avatar-2:hover {
-  opacity: 0.5; }
+  opacity: 0.5;
+}
 
 .partners {
-  background-color: #36383e; }
+  background-color: #36383e;
+}
 
 .fancy-border {
   border: 10px solid #272a31;
   border-image: url("/assets/bg-gradient.png");
-  border-image-slice: 230 100 110; }
+  border-image-slice: 230 100 110;
+}
 
 .table-border {
-  border: 3px solid #272a31; }
+  border: 3px solid #272a31;
+}
 
 .about {
   background-image: url(https://nationalcoffeeblog.files.wordpress.com/2018/11/limitless-coffee.gif), linear-gradient(to top left, black, #d3d3d3);
@@ -208,20 +285,26 @@ h1 {
   background-size: cover;
   width: 100%;
   position: relative;
-  font: "Cocogoose", sans-serif;
+  font-family: "Cocogoose", sans-serif;
   cursor: pointer;
-  height: 500px; }
-  .about-bottom {
-    color: #494949; }
-    .about-bottom-caption {
-      border-radius: 5px;
-      background-color: white;
-      opacity: 0.7; }
+  height: 500px;
+}
+
+.about-bottom {
+  color: #494949;
+}
+
+.about-bottom-caption {
+  border-radius: 5px;
+  background-color: white;
+  opacity: 0.7;
+}
 
 .best-coffee figcaption p {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+}
 
 .coffeecon-2019 {
   background-image: linear-gradient(to top left, rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url(https://www.finedininglovers.com/sites/g/files/xknfdk626/files/styles/open_graph_image/public/Original_555_FDL-226-TP.jpg?itok=Sf-xMd1p);
@@ -231,9 +314,10 @@ h1 {
   background-size: cover;
   width: 100%;
   position: relative;
-  font: "Cocogoose", sans-serif;
+  font-family: "Cocogoose", sans-serif;
   cursor: pointer;
-  height: auto; }
+  height: auto;
+}
 
 .coffeecon-2018 {
   background-image: linear-gradient(to top left, rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url(https://sprudge.com/wp-content/uploads/2018/09/Hugh-Kelly-ONA-Australia-03-1024x683.jpg);
@@ -243,19 +327,14 @@ h1 {
   background-size: cover;
   width: 100%;
   position: relative;
-  font: "Cocogoose", sans-serif;
+  font-family: "Cocogoose", sans-serif;
   cursor: pointer;
-  height: auto; }
-
-.main-button {
-  width: 18em;
-  color: white;
-  border: transparent;
-  background-color: #eb4534;
-  border-radius: 50px; }
+  height: auto;
+}
 
 @font-face {
   font-family: "Cocogoose";
   src: url("/assets/cocogoose_regular-webfont.woff") format("woff");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
