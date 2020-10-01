@@ -88,7 +88,7 @@ a:hover {
 }
 
 .showcase {
-  background-image: url(/assets/coffee.gif), linear-gradient(to top left, black, #d3d3d3);
+  background-image: url(../assets/coffee.gif), linear-gradient(to top left, black, #d3d3d3);
   background-color: transparent;
   background-blend-mode: overlay;
   background-position: 57% 43%;
@@ -338,7 +338,7 @@ h3 {
 
 @font-face {
   font-family: "Cocogoose";
-  src: url("/assets/cocogoose_regular-webfont.woff") format("woff");
+  src: url("../assets/cocogoose_regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
