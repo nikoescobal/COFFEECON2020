@@ -1,0 +1,69 @@
+@media (max-width: 992px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header-logo {
+    background: linear-gradient(to right, darken($gray, 15%), $orange);
+  }
+
+  h1 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+
+  .past-coffeecon h2 {
+    font-size: 24px;
+  }
+
+  .tickets h1 {
+    font-size: 28px;
+  }
+
+  .ticket-button {
+    font-size: 11px;
+  }
+
+  .tables {
+    font-size: 11.5px;
+  }
+
+  .best-coffee h2 {
+    font-size: 28px;
+  }
+
+  .best-coffee h4 {
+    font-size: 20px;
+  }
+
+  .best-coffee h6 {
+    font-size: 10.5px;
+  }
+}
+
+@media (max-width: 321px) {
+  h1 {
+    font-size: 28.5px;
+  }
+
+  .coffee-connoiseurs h2 {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 768px) {
+  .showcase-bottom-caption {
+    margin-top: -10px;
+  }
+}

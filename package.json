@@ -6,8 +6,8 @@
   "scripts": {
     "test": "npm run webhint && npm run stylelint && echo \"✅✅✅ All tests passed ✅✅✅\"",
     "webhint": "hint .",
-    "stylelint": "stylelint **/*.css",
-    "sass": "node-sass styles/scss/main.scss styles/css/app.css -w"
+    "stylelint": "npx stylelint **/*.scss",
+    "sass": "node-sass scss/style.scss css/style.css -w"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,8 @@
     "stylelint-config-standard": "^20.0.0",
     "stylelint-csstree-validator": "^1.8.0",
     "stylelint-scss": "^3.17.2"
+  },
+  "dependencies": {
+    "node-sass": "^4.14.1"
   }
 }

@@ -1,4 +1,21 @@
 i.fa-bars::before {
-  font-size: 68px;
-  color: $orange;
+  font-size: 28px;
+  color: lighten($black, 5);
+  padding: 15px 25px;
+  display: flex;
+  align-items: center;
+}
+
+i.fa-facebook-f::before {
+  font-size: 18px;
+  color: $gray;
+  display: flex;
+  align-items: center;
+}
+
+i.fa-twitter::before {
+  font-size: 18px;
+  color: $gray;
+  display: flex;
+  align-items: center;
 }

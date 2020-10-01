@@ -30,6 +30,7 @@ git clone git@github.com:nikoescobal/COFFEECON2020.git
 
 ## Linters
 
+
 ```
 run npm install.
 run npm run test to check and validate the HTML and CSS files.

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;800;900&family=Heebo:wght@600;700;800;900&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Maven+Pro:wght@600;700;800;900&family=Raleway:wght@600;700;800;900&family=Work+Sans:wght@600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML/CSS Capstone Project</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+</head>
+
+<body>
+  <main>
+    <header>
+      <a href="about.html"><i class="header-logo d-flex d-md-none fa fa-bars" aria-hidden="true"></i></a>
+      <nav class="navbar navbar-expand-md d-none d-md-block  p-0">
+        <ul class="top-nav d-flex align-items-center justify-content-end bg-black m-0">
+          <li>
+            <i class="gray-text"> <a class="fab fa-line px-2" href="#"></a> </i>
+          </li>
+          <li>
+            <i class="gray-text"> <a class="fab fa-facebook-f px-2" href="#"></a> </i>
+          </li>
+          <li>
+            <i class="gray-text"> <a class="fab fa-twitter px-2" href="#"></a> </i>
+          </li>
+          <li>
+            <i class="gray-text"> <a class="fab fa-instagram px-2" href="#"></a> </i>
+          </li>
+
+          <li>
+            <a class="gray-text px-2 font-weight-bold text-uppercase" href="#">blog</a>
+          </li>
+          <li>
+            <a class="gray-text px-2 font-weight-bold text-uppercase" href="tickets.html">buy tickets</a>
+          </li>
+          <li>
+            <a class="gray-text px-2 font-weight-bold text-uppercase mr-2" href="#">login</a>
+          </li>
+        </ul>
+        <a href="about.html"><i class="d-md-none fa fa-bars" aria-hidden="true"></i></a>
+
+        <div
+          class="bot-nav container-fluid d-flex align-items-md-center py-1 justify-content-between bg-gray align-items-center m-0">
+          <div class="nav-logo">
+            <a class="orange-text" href="index.html"> <img class="align-items-center my-1"
+                src="https://coffee-con.com/wp-content/uploads/2016/10/cropped-coffee-con-logo-generic02-e1476840155520.png"
+                width="48" height="48" alt=""> </a>
+          </div>
+
+          <div class="nav-social">
+            <a class="orange-text px-2 font-weight-bold text-uppercase" href="about.html">about</a>
+            <a class="black-text px-2 font-weight-bold text-uppercase" href="#">program</a>
+            <a class="black-text px-2 font-weight-bold text-uppercase" href="#">join</a>
+            <a class="black-text px-2 font-weight-bold text-uppercase" href="#">sponsor</a>
+            <a class="black-text px-2 font-weight-bold text-uppercase" href="#">news</a>
+          </div>
+
+        </div>
+      </nav>
+    </header>
+    <div>
+      <div class="tickets">
+        <div class="container">
+
+          <div>
+            <h1 class="d-flex font-weight-bold text-uppercase my-4 mx-auto mb-0 justify-content-center">
+              <a class="border-bottom" href="tickets.html">select your ticket</a>
+            </h1>
+
+            <div class="about-bottom font-weight-bold">
+              <div class="header-bottom d-flex flex-column align-items-center justify-content-center">
+
+                <button type="button"
+                  class="ticket-button d-flex border-transparent border rounded-pill bg-white mx-auto py-2 mt-4 mb-3 px-3 px-md-5 font-weight-bold">
+                  <span class="orange-text font-weight-bold text-uppercase mr-4">&diam; step 1</span>
+                  Please select your preferred ticket
+                </button>
+
+                <div class="tables">
+                  <table class="ticket-table my-5 table table-hover table-border">
+                    <thead>
+                      <tr class="bg-black gray-text">
+                        <th scope="col">Ticket</th>
+                        <th scope="col">Day Pass</th>
+                        <th scope="col">2-Day Pass</th>
+                        <th scope="col">3-Day Pass</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="orange-text">
+                        <th class="black-text" scope="row">Silver</th>
+                        <td>$1000</td>
+                        <td>$2000</td>
+                        <td>$3000</td>
+                      </tr>
+                      <tr class="orange-text">
+                        <th class="black-text" scope="row">Gold</th>
+                        <td>$1500</td>
+                        <td>$2500</td>
+                        <td>$3500</td>
+                      </tr>
+                      <tr class="orange-text">
+                        <th class="black-text" scope="row">Platinum</th>
+                        <td>$2000</td>
+                        <td>$3000</td>
+                        <td>$4000</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <table class="entree-table my-5 table table-hover table-border">
+                    <thead>
+                      <tr class="bg-black text-white">
+                        <th scope="col">Date</th>
+                        <th scope="col"></th>
+                        <th scope="col">Entrée Selection</th>
+                        <th scope="col"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="orange-text">
+                        <th class="black-text" scope="row">Oct. 10 (Wed)</th>
+                        <td><input type="radio" id="menu-1" name="menu">
+                          <label for="menu-1">Slow-Cooked Boeuf Bourguignon</label>
+                        </td>
+                        <td><input type="radio" id="menu-2" name="menu">
+                          <label for="menu-2">Parmesan Risotto with Roasted Shrimp</label>
+                        </td>
+                        <td><input type="radio" id="menu-3" name="menu">
+                          <label for="menu-3">Karai Tokusei Ramen</label>
+                        </td>
+                      </tr>
+                      <tr class="orange-text">
+                        <th class="black-text" scope="row">Oct. 11 (Thurs)</th>
+                        <td><input type="radio" id="menu-4" name="menu-1">
+                          <label for="menu-4">Peppercorn and Garam Masala Gyoza</label>
+                        </td>
+                        <td><input type="radio" id="menu-5" name="menu-1">
+                          <label for="menu-5">Jalapeno and Nectarine Dumplings</label>
+                        </td>
+                        <td><input type="radio" id="menu-6" name="menu-1">
+                          <label for="menu-6">Spicy Tuna Maki</label>
+                        </td>
+                      </tr>
+                      <tr class="orange-text">
+                        <th class="black-text" scope="row">Oct. 12 (Fri)</th>
+                        <td><input type="radio" id="menu-7" name="menu-2">
+                          <label for="menu-7">Pappardelle with Sea Urchin and
+                            Cauliflower</label>
+                        </td>
+                        <td><input type="radio" id="menu-8" name="menu-2">
+                          <label for="menu-8">Sausage Ragù over Creamy Polenta</label>
+                        </td>
+                        <td><input type="radio" id="menu-9" name="menu-2">
+                          <label for="menu-9">Beef Wellington</label>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                </div>
+
+
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container-fluid bg-black px-4 pt-4 mt-5 pb-3">
+      <div class="row d-flex gray-text">
+        <div class="col-12 d-flex justify-content-between align-items-end">
+
+          <div class="d-flex flex-column">
+            <p class="my-1"><a class="font-weight-bold" href="#">FAQ</a></p>
+            <p class="my-1"><a class="font-weight-bold" href="about.html">About</a></p>
+            <p class="my-1"><a class="font-weight-bold" href="#">Contact Us</a></p>
+            <p class="my-1"><a class="font-weight-bold" href="tickets.html">Buy Tickets</a></p>
+          </div>
+
+          <div class="d-flex flex-column align-items-end">
+            <div class="footer-logo d-flex align-items-end">
+              <a href="index.html"> <img class="align-items-center my-1"
+                  src="https://coffee-con.com/wp-content/uploads/2016/10/cropped-coffee-con-logo-generic02-e1476840155520.png"
+                  width="48" height="48" alt="footer logo"> &nbsp; </a>
+            </div>
+            <div class="footer-copyright d-flex flex-column align-items-end">
+              <p class="my-1"><a class="orange-text font-italic" href="#">www.coffeecon.com</a></p>
+              <p class="d-none d-md-block my-1 font-weight-bold">© 2020 COFFEECON 2020.&nbsp; All rights
+                reserved.</p>
+              <p class="d-md-none my-1 font-weight-bold">© 2020 COFFEECON 2020.</p>
+              <p class="d-md-none my-1 font-weight-bold">All rights reserved.</p>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+
+      </div>
+    </footer>
+
+  </main>
+
+</body>
+
+</html>

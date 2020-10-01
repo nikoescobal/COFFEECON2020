@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <link
-    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;800;900&family=Heebo:wght@600;700;800;900&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Maven+Pro:wght@600;700;800;900&family=Raleway:wght@600;700;800;900&family=Work+Sans:wght@600;700;800;900&display=swap"
     rel="stylesheet">
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -13,48 +13,400 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>HTML/CSS Capstone Project</title>
 
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
     crossorigin="anonymous" />
 </head>
 
 <body>
-
   <header>
-    <nav>
-      <div class="top-nav"></div>
-      <i class="fa fa-bars" aria-hidden="true"></i>
-      <div class="bot-nav"></div>
+    <a href="about.html"><i class="header-logo d-flex d-md-none fa fa-bars" aria-hidden="true"></i></a>
+    <nav class="navbar navbar-expand-md d-none d-md-block  p-0">
+      <ul class="top-nav d-flex align-items-center justify-content-end bg-black m-0">
+        <li>
+          <i class="gray-text"> <a class="fab fa-line px-2" href="#"></a> </i>
+        </li>
+        <li>
+          <i class="gray-text"> <a class="fab fa-facebook-f px-2" href="#"></a> </i>
+        </li>
+        <li>
+          <i class="gray-text"> <a class="fab fa-twitter px-2" href="#"></a> </i>
+        </li>
+        <li>
+          <i class="gray-text"> <a class="fab fa-instagram px-2" href="#"></a> </i>
+        </li>
+
+        <li>
+          <a class="gray-text px-2 font-weight-bold text-uppercase" href="#">blog</a>
+        </li>
+        <li>
+          <a class="gray-text px-2 font-weight-bold text-uppercase" href="tickets.html">buy tickets</a>
+        </li>
+        <li>
+          <a class="gray-text px-2 font-weight-bold text-uppercase mr-2" href="#">login</a>
+        </li>
+      </ul>
+      <a href="about.html"><i class="d-md-none fa fa-bars" aria-hidden="true"></i></a>
+
+      <div
+        class="bot-nav container-fluid d-flex align-items-md-center py-1 justify-content-between bg-gray align-items-center m-0">
+        <div class="nav-logo">
+          <a class="orange-text" href="index.html"> <img class="align-items-center my-1"
+              src="https://coffee-con.com/wp-content/uploads/2016/10/cropped-coffee-con-logo-generic02-e1476840155520.png"
+              width="48" height="48" alt=""> </a>
+        </div>
+
+        <div class="nav-social">
+          <a class="orange-text px-2 font-weight-bold text-uppercase" href="about.html">about</a>
+          <a class="black-text px-2 font-weight-bold text-uppercase" href="#">program</a>
+          <a class="black-text px-2 font-weight-bold text-uppercase" href="#">join</a>
+          <a class="black-text px-2 font-weight-bold text-uppercase" href="#">sponsor</a>
+          <a class="black-text px-2 font-weight-bold text-uppercase" href="#">news</a>
+        </div>
+
+      </div>
     </nav>
   </header>
+  <main>
 
-  <main class="container-fluid">
-    <section class="showcase">
-      <div class="col-12">
-        <article class="d-flex flex-column justify-content-center align-items-center">
-          <figure>
-            <img>
-            <figcaption>
-              <h1 class="font-weight-bold text-uppercase">WEBTOONS CON 2020</h1>
-            </figcaption>
-          </figure>
-        </article>
+    <div>
+      <div class="showcase">
+        <div class="container">
+          <h1 class="pt-5 pb-3 font-weight-bold text-uppercase pl-2 pl-md-2 mb-0"> <a href="index.html">coffeecon
+              2020</a>
+          </h1>
+          <div class="showcase-bottom font-weight-bold">
+            <p class="showcase-bottom-caption d-inline-block mx-3 p-2 border text-center text-lg-left font-weight-bold">
+              Embark on a coffee journey 'round the
+              world.</p>
+            <div
+              class="header-bottom d-flex flex-column align-items-end align-items-md-start pr-4 pr-lg-2 pr-md-0 pl-md-3 justify-content-md-center">
+              <p class="m-0 font-weight-bold"> Nov. 10-12, 2020</p>
+              <p class="orange font-weight-bold">Tokyo, Japan</p>
+            </div>
+          </div>
+        </div>
+
       </div>
+    </div>
 
 
-      <p class="col-12 border">A joyful celebration believing in the value of openness and sharing, creating a positive
-        change with people from over 80 countries is taking place in October in Korea.</p>
-      <div class="header-bottom">
-        <p> 2015.10.15(THU) ~ 16 (FRI)</p>
-        <p>@National Museum of Korea, Art Center Nabi and more</p>
+    <!-- Main Program Section (768px-1400px) -->
+    <section class="main-program container-fluid d-flex flex-column">
+
+      <h2 class="pt-5 pb-3">
+        <a class="d-flex gray-text font-weight-bold justify-content-center mt-2 text-uppercase"
+          href="index.html">Program
+          Flow</a>
+      </h2>
+
+      <div class="row px-2 justify-content-center align-items-center">
+        <div class="content d-flex flex-column py-1 my-2 mx-1 p-5 p-md-5 d-md-inline-block mx-md-1 col-md-2">
+          <div class="coffee-caption gray-text d-flex flex-md-column justify-content-center align-items-center">
+            <i class="fas fa-coffee px-2 p-md-3"></i>
+            <a href="https://icons8.com/icon/KvglG3FkCenH/japan">
+              <img class="px-2 py-md-3" alt="country flag icon"
+                src="https://img.icons8.com/emoji/48/000000/japan-emoji.png" />
+            </a>
+            <div class="d-flex flex-md-column align-items-center justify-content-center">
+              <div class="caption d-flex justify-content-center align-items-center flex-md-column">
+                <p
+                  class="m-0 px-2 px-md-3 py-md-2 d-flex text-center justify-content-center orange-text font-weight-bold">
+                  Coffee</p>
+                <p class="m-0 px-3 px-md-3 py-md-2 text-center">Experience coffee from Japan.</p>
+                &nbsp; &nbsp; &nbsp; &nbsp;
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content d-flex flex-column py-1 my-2 mx-1 p-5 p-md-5 d-md-inline-block mx-md-1 col-md-2">
+          <div class="coffee-caption gray-text d-flex flex-md-column justify-content-center align-items-center">
+            <i class="fas fa-coffee px-2 p-md-3"></i>
+            <a href="https://icons8.com/icon/6Hs1IM1NzN7p/austria">
+              <img class="px-2 py-md-3" alt="country flag icon"
+                src="https://img.icons8.com/emoji/48/000000/austria-emoji.png" />
+            </a>
+            <div class="d-flex flex-md-column align-items-center justify-content-center">
+              <div class="caption d-flex justify-content-center align-items-center flex-md-column">
+                <p
+                  class="m-0 px-2 px-md-3 py-md-2 d-flex text-center justify-content-center orange-text font-weight-bold">
+                  Coffee</p>
+                <p class="m-0 px-3 px-md-3 py-md-2 text-center">Experience coffee from Austria.</p> &nbsp; &nbsp;
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content d-flex flex-column py-1 my-2 mx-1 p-5 p-md-5 d-md-inline-block mx-md-1 col-md-2">
+          <div class="coffee-caption gray-text d-flex flex-md-column justify-content-center align-items-center">
+            <i class="fas fa-coffee px-2 p-md-3"></i>
+            <a class="px-2 py-md-3" href="https://icons8.com/icon/Wjhd8tSYkD8r/vietnam">
+              <img alt="country flag icon" src="https://img.icons8.com/emoji/48/000000/vietnam-emoji.png" /></a>
+            <div class="d-flex flex-md-column align-items-center justify-content-center">
+              <div class="caption d-flex justify-content-center align-items-center flex-md-column">
+                <p
+                  class="m-0 px-2 px-md-3 py-md-2 d-flex text-center justify-content-center orange-text font-weight-bold">
+                  Coffee</p>
+                <p class="m-0 px-3 px-md-3 py-md-2 text-center">Experience coffee from Vietnam.</p> &nbsp;
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content d-flex flex-column py-1 my-2 mx-1 p-5 p-md-5 d-md-inline-block mx-md-1 col-md-2">
+          <div class="coffee-caption gray-text d-flex flex-md-column justify-content-center align-items-center">
+            <i class="fas fa-coffee px-2 p-md-3"></i>
+            <a class="px-2 py-md-3" href="https://icons8.com/icon/iHI2gDXCsMzH/brazil"><img alt="country flag icon"
+                src="https://img.icons8.com/emoji/48/000000/brazil-emoji.png" /></a>
+            <div class="d-flex flex-md-column align-items-center justify-content-center">
+              <div class="caption d-flex justify-content-center align-items-center flex-md-column">
+                <p
+                  class="m-0 px-2 px-md-3 py-md-2 d-flex text-center justify-content-center orange-text font-weight-bold">
+                  Coffee</p>
+                <p class="m-0 px-3 px-md-3 py-md-2 text-center">Experience coffee from Brazil.</p> &nbsp; &nbsp; &nbsp;
+                &nbsp;
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content d-flex flex-column py-1 my-2 mx-1 p-5 p-md-5 d-md-inline-block mx-md-1 col-md-2">
+          <div class="coffee-caption gray-text d-flex flex-md-column justify-content-center align-items-center">
+            <i class="fas fa-coffee px-2 p-md-3"></i>
+            <a class="px-2 py-md-3" href="https://icons8.com/icon/Gj4LI8fsA2Qv/ethiopia"> <img alt="country flag icon"
+                src="https://img.icons8.com/emoji/48/000000/ethiopia-emoji.png" />
+            </a>
+            <div class="d-flex flex-md-column align-items-center justify-content-center">
+              <div class="caption d-flex justify-content-center align-items-center flex-md-column">
+                <p
+                  class="m-0 px-2 px-md-3 py-md-2 d-flex text-center justify-content-center orange-text font-weight-bold">
+                  Coffee</p>
+                <p class="m-0 px-3 px-md-3 py-md-2 text-center">Experience coffee from Ethiopia.</p> &nbsp;
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="d-md-none main-button mx-auto my-5 p-4 text-uppercase font-weight-bold">
+          join coffeecon 2020
+        </button>
+
+        <button type="button" class="d-none d-md-block main-button mx-auto my-5 p-4 text-uppercase font-weight-bold">
+          see whole program
+        </button>
       </div>
     </section>
 
-    <section class="main-program">
+
+    <section class="coffee-connoiseurs container d-flex mx-auto justify-content-center flex-column">
+      <h2 class="mx-auto pt-5 pb-4">
+        <a class="border-bottom font-weight-bold text-uppercase" href="#">Coffee Connoiseurs</a>
+      </h2>
+      <div class="row px-2 d-flex justify-content-center align-items-center">
+        <div class="d-flex flex-column flex-md-row d-md-none justify-content-center">
+          <article class="ce-content d-flex justify-content-center mx-auto col-sm-12 col-md-6 my-4">
+            <figure class="d-flex mx-auto">
+              <img class="avatar img-fluid fancy-border"
+                src="https://img.etimg.com/thumb/width-640,height-480,imgsize-264393,resizemode-1,msid-55746311/news/international/business/starbuckss-visionary-ceo-howard-schultz-stepping-down.jpg"
+                alt="Howard Schultz">
+
+              <figcaption class="d-flex flex-column px-3">
+                <h5 class="font-weight-bold"><a href="#">Howard Schultz</a></h5>
+                <p class="mb-1 orange-text font-italic">The Coffee King</p>
+                <p class="m-0">Chairman and CEO Emeritus of Starbucks</p>
+              </figcaption>
+            </figure>
+          </article>
+          <article class="ce-content d-flex justify-content-center mx-auto col-sm-12 col-md-6 my-4">
+            <figure class="d-flex mx-auto">
+              <img class="avatar img-fluid fancy-border"
+                src="https://wclforum.org/upfile/speaker/%EC%A0%84%EC%A3%BC%EC%97%B0.jpg" alt="Jooyeon Jeon">
+              <figcaption class="d-flex flex-column px-3">
+                <h5 class="font-weight-bold"><a href="#">Jooyeon Jeon</a></h5>
+                <p class="mb-1 orange-text font-italic">2019 World Barista Champion</p>
+                <p class="m-0">Barista Training Director at Momos Coffee</p>
+              </figcaption>
+            </figure>
+          </article>
+        </div>
+      </div>
+
+      <div class="row d-none d-md-block">
+        <div class="d-flex flex-column flex-md-row d-none">
+          <article class="ce-content d-flex justify-content-center col-md-6 my-4">
+            <figure class="d-flex mx-auto">
+              <img class="avatar img-fluid d-none d-md-block fancy-border"
+                src="https://img.etimg.com/thumb/width-640,height-480,imgsize-264393,resizemode-1,msid-55746311/news/international/business/starbuckss-visionary-ceo-howard-schultz-stepping-down.jpg"
+                alt="Howard Schultz">
+              <figcaption class="d-flex flex-column px-3">
+                <h5 class="font-weight-bold d-none d-md-block"><a href="#">Howard Schultz</a></h5>
+                <p class="mb-1 d-none d-md-block orange-text font-italic">The Coffee King</p>
+                <p class="m-0 d-none d-md-block">Chairman and CEO Emeritus of Starbucks</p>
+              </figcaption>
+            </figure>
+          </article>
+          <article class="ce-content d-flex justify-content-center col-md-6 my-4">
+            <figure class="d-flex mx-auto">
+              <img class="avatar img-fluid d-none d-md-block fancy-border"
+                src="https://wclforum.org/upfile/speaker/%EC%A0%84%EC%A3%BC%EC%97%B0.jpg" alt="Jooyeon Jeon">
+              <figcaption class="d-flex flex-column px-3">
+                <h5 class="font-weight-bold d-none d-md-block"><a href="#">Jooyeon Jeon</a></h5>
+                <p class="mb-1 d-none d-md-block orange-text font-italic">2019 World Barista Champion</p>
+                <p class="m-0 d-none d-md-block">Barista Training Director at Momos Coffee</p>
+              </figcaption>
+            </figure>
+          </article>
+        </div>
+
+      </div>
+      <div class="row d-none d-md-block">
+        <div class="d-flex flex-column flex-md-row d-none">
+          <article class="ce-content d-flex justify-content-center col-md-6 my-4">
+            <figure class="d-flex mx-auto">
+              <img class="avatar img-fluid d-none d-md-block fancy-border"
+                src="https://coffeemasters.org/wp-content/uploads/2019/09/Erika-Vonie-Headshot-square.jpeg"
+                alt="Erika Vonie">
+              <figcaption class="d-flex flex-column px-3">
+                <h5 class="font-weight-bold d-none d-md-block"><a href="#">Erika Vonie</a></h5>
+                <p class="mb-1 d-none d-md-block orange-text font-italic">2017 NYC Coffee Masters Champion</p>
+                <p class="m-0 d-none d-md-block">Certified Specialty Coffee Sommelier and Barista</p>
+              </figcaption>
+            </figure>
+          </article>
+          <article class="ce-content d-flex justify-content-center col-md-6 my-4">
+            <figure class="d-flex mx-auto">
+              <img class="avatar img-fluid d-none d-md-block fancy-border"
+                src="https://i0.wp.com/mentor-drive.com/wp-content/uploads/2019/06/Mohammed-Hussein-Ali-Al-Amoudi.jpg?fit=940700&ssl=1"
+                alt="Al Amoudi">
+              <figcaption class="d-flex flex-column px-3">
+                <h5 class="font-weight-bold d-none d-md-block"><a href="#">Al Amoudi</a></h5>
+                <p class="mb-1 d-none d-md-block orange-text font-italic">Ethiopia's Coffee Magnate</p>
+                <p class="m-0 d-none d-md-block">Serial Coffee Enthusiast and Billionaire</p>
+              </figcaption>
+            </figure>
+          </article>
+        </div>
+
+      </div>
+      <div class="row d-none d-md-block">
+        <div class="d-flex flex-column flex-md-row d-none">
+          <article class="ce-content d-flex col-md-6 my-4">
+            <figure class="d-flex">
+              <img class="avatar img-fluid d-none d-md-block fancy-border"
+                src="https://331mrnu3ylm2k3db3s1xd1hg-wpengine.netdna-ssl.com/wp-content/uploads/2016/06/berg_wu_best_of_berg-3.jpg"
+                alt="Berg Wu">
+              <figcaption class="d-flex flex-column px-3">
+                <h5 class="font-weight-bold d-none d-md-block"><a href="#">Berg Wu</a></h5>
+                <p class="mb-1 d-none d-md-block orange-text font-italic">2016 World Barista Champion</p>
+                <p class="m-0 d-none d-md-block">Founder of Simple Kaffa</p>
+              </figcaption>
+            </figure>
+          </article>
+          <article class="ce-content d-flex justify-content-center col-md-6 my-4">
+            <figure class="d-flex">
+              <img class="avatar img-fluid d-none d-md-block fancy-border"
+                src="https://dlo9n43mpvj20faa12i3i3lh-wpengine.netdna-ssl.com/wp-content/uploads/2014/04/Kim-375x375.jpg"
+                alt="Kim Westerman">
+              <figcaption class="d-flex flex-column px-3">
+                <h5 class="font-weight-bold d-none d-md-block"><a href="#">Kim Westerman</a>
+                </h5>
+                <p class="mb-1 d-none d-md-block orange-text font-italic">The Coffee Snob</p>
+                <p class="m-0 d-none d-md-block">Managing Editor at Coffee Review</p>
+              </figcaption>
+            </figure>
+          </article>
+        </div>
+      </div>
+      <button type="button"
+        class="py-2 d-md-none bg-white mx-3 border rounded-pill font-weight-bold text-uppercase mb-5"> see more
+        &nbsp; <i class="text-danger fa fa-chevron-down" aria-hidden="true"></i>
+      </button>
     </section>
 
+    <section class="partners justify-content-center mx-auto d-flex flex-column h-100 mh-100 pt-4 pb-5">
+      <div class="container d-flex flex-column">
+        <h2 class="my-3 mx-auto"> <a class="border-bottom gray-text border-secondary text-uppercase" href="#">partners</a> </h2>
+
+        <div class="row mx-auto align-items-center justify-content-center">
+          <div class="d-flex justify-content-center pt-md-4 flex-column mx-auto align-items-center">
+
+
+            <div class="d-md-none mx-auto col-6 d-flex justify-content-center pt-4 pb-3 mx-auto">
+              <a href="#"><img class="avatar-2 " src="assets/kicking-horse-coffee-logo.png" width="100"
+                  alt="Kicking horse logo"></a>
+            </div>
+
+            <ul class="d-md-none mx-auto col-6 d-flex justify-content-center ">
+              <li class="p-3 mx-auto"><a href="#"><img class="avatar-2" src="assets/starbucks-logo.png" width="100"
+                    alt="Starbucks logo"></a></li>
+              <li class="p-3 mx-auto"><a href="#"><img class="avatar-2 border-white rounded-circle"
+                    src="assets/lavazza-logo.svg" width="100" alt="Lavazza logo"></a></li>
+
+            </ul>
+
+            <ul class="d-md-none mx-auto col-6 d-flex justify-content-center">
+              <li class="p-3 mx-auto"><a href="#"><img class="avatar-2 border-white rounded-circle"
+                    src="assets/dragonfly-coffee-logo.jpg" width="100" alt="Dragonfly logo"></a></li>
+              <li class="p-3 mx-auto"><a href="#"><img class="avatar-2 rounded-circle" src="assets/deathwish-logo.jpg"
+                    width="100" alt="Death wish logo"></a></li>
+            </ul>
+
+            <ul
+              class="d-none d-md-block mx-auto col-md-12 d-flex justify-content-center flex-column d-md-flex flex-md-row">
+              <li class="d-none d-md-block  p-3 mx-auto"><a href="#"><img class="avatar-2 rounded-circle"
+                    src="assets/kicking-horse-coffee-logo.png" width="100" alt="kicking horse coffee logo"></a></li>
+              <li class="d-none d-md-block p-3 mx-auto"><a href="#"><img class="avatar-2 "
+                    src="assets/starbucks-logo.png" width="100" alt="Starbucks logo"></a></li>
+              <li class="d-none d-md-block  p-3 px-md-3 mx-auto"><a href="#"><img
+                    class="avatar-2 rounded-circle border border-white" src="assets/lavazza-logo.svg" width="100"
+                    alt="Lavazza logo"></a></li>
+              <li class="d-none d-md-block p-3 mx-auto"><a href="#"><img class="avatar-2 border-white rounded-circle"
+                    src="assets/dragonfly-coffee-logo.jpg" width="100" alt="Dragonfly logo"></a></li>
+              <li class="d-none d-md-block  p-3 px-md-3 mx-auto"><a href="#"><img
+                    class="avatar-2 rounded-circle border border-white" src="assets/deathwish-logo.jpg" width="100"
+                    alt="Death wish logo"></a></li>
+
+            </ul>
+
+          </div>
+        </div>
+      </div>
+
+    </section>
   </main>
+
+  <footer class="container-fluid px-4 pt-4 pb-3">
+    <div class="row d-flex">
+      <div class="col-12 d-flex justify-content-between align-items-end">
+
+        <div class="d-flex flex-column">
+          <p class="my-1"><a class="font-weight-bold" href="#">FAQ</a></p>
+          <p class="my-1"><a class="font-weight-bold" href="about.html">About</a></p>
+          <p class="my-1"><a class="font-weight-bold" href="#">Contact Us</a></p>
+          <p class="my-1"><a class="font-weight-bold" href="tickets.html">Buy Tickets</a></p>
+        </div>
+
+        <div class="d-flex flex-column align-items-end">
+          <div class="footer-logo d-flex align-items-end">
+            <a href="index.html"> <img class="align-items-center my-1"
+                src="https://coffee-con.com/wp-content/uploads/2016/10/cropped-coffee-con-logo-generic02-e1476840155520.png"
+                width="48" height="48" alt="footer logo"> &nbsp; </a>
+          </div>
+          <div class="footer-copyright d-flex flex-column align-items-end">
+            <p class="my-1"><a class="orange-text font-italic" href="#">www.coffeecon.com</a></p>
+            <p class="d-none d-md-block my-1 font-weight-bold">© 2020 COFFEECON 2020.&nbsp; All rights reserved.</p>
+            <p class="d-md-none my-1 font-weight-bold">© 2020 COFFEECON 2020.</p>
+            <p class="d-md-none my-1 font-weight-bold">All rights reserved.</p>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+
+    </div>
+  </footer>
 
 
 </body>

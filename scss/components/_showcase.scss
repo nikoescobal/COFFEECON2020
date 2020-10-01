@@ -1,5 +1,24 @@
 .showcase {
-    // // background-image: url(../assets/Capstone-image-1.gif);
-    background-color: $gray;
-    background-size: cover;
-    width: 100%;
+  background-image: url(/assets/coffee.gif), linear-gradient(to top left, darken($black, 75%), $gray);
+  background-color: transparent;
+  background-blend-mode: overlay;
+  background-position: 57% 43%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+  height: 500px;
+
+  &-bottom {
+    color: lighten($gray, 1%);
+    font-family: $font-stack-1;
+
+    &-caption:first-child {
+      border-radius: 5px;
+      background: transparentize($orange, 0.3);
+      font-family: $font-stack-2;
+    }
+  }
+}
