@@ -6,6 +6,10 @@ I built this website with a mobile-first approach, applying fluid design princip
 
 ![full-screenshot](https://user-images.githubusercontent.com/62937819/94750101-ec1aa600-03b7-11eb-9c81-5b34798e1338.png)
 
+## Live Demo
+
+[Live Demo Link](https://coffeecon2020.netlify.app/)
+
 Check out my video presentation [here](https://www.loom.com/share/279cc63ac57f439d891ee50b18b8f8b8). 
 
 ## Built with
@@ -26,14 +30,11 @@ git clone git@github.com:nikoescobal/COFFEECON2020.git
 
 ## Linters
 
+
 ```
 run npm install.
 run npm run test to check and validate the HTML and CSS files.
 ```
-
-## Live Demo
-
-[Live Demo Link](https://coffeecon2020.netlify.app/)
 
 ## Author 
 
