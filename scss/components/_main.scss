@@ -1,0 +1,83 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+h2,
+h3 {
+  font-family: $font-stack-1;
+}
+
+.main-program {
+  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://i.pinimg.com/originals/87/c1/d2/87c1d2e0bd88142fd47549b2e86f247b.jpg);
+  background-color: transparent;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+  height: auto;
+
+  .content {
+    background: transparentize($black, 0.5);
+    backdrop-filter: blur(4px);
+    border-radius: 15px;
+  }
+
+  .main-button {
+    width: 18em;
+    color: lighten($gray, 85%);
+    border: transparent;
+    background-color: darken($orange, 3%);
+    border-radius: 50px;
+  }
+
+  .coffee-caption {
+    width: 100%;
+  }
+}
+
+.coffee-connoiseurs figure {
+  width: 100%;
+}
+
+.avatar {
+  object-fit: cover;
+  width: 10rem;
+  max-width: 100%;
+  height: 10rem;
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.avatar:hover {
+  opacity: 0.5;
+}
+
+.avatar-2 {
+  object-fit: cover;
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.avatar-2:hover {
+  opacity: 0.5;
+}
+
+.partners {
+  background-color: darken($dark-gray, 3%);
+}
+
+.fancy-border {
+  border: 10px solid $black;
+  border-image: url("/assets/bg-gradient.png");
+  border-image-slice: 230 100 110;
+}
+
+.table-border {
+  border: 3px solid $black;
+}
